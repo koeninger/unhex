@@ -1,0 +1,18 @@
+= Unhex
+Cody Koeninger
+:doctype: book
+:imagesdir: images
+:fontsdir: fonts
+:pdf-fontsdir: fonts
+ifndef::ebook-format[:leveloffset: 1]
+
+include::intro.adoc[]
+
+include::level.adoc[]
+
+include::dice.adoc[]
+
+include::abilities.adoc[]
+
+include::combat.adoc[]
+

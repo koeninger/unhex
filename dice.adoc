@@ -1,0 +1,29 @@
+[#dice]
+= Rolling dice
+
+When a result is uncertain, roll dice to see what happens. Don't roll dice unless there's potential for both success and failure to have interesting consequences. Once consequences have been decided, don't keep re-trying for a different result.
+
+== Basic rolls
+Roll percentile dice. Equal to or under your level is a success. Over your level is a failure. 00 on one die and 0 on the other die is read as one hundred, not zero.
+
+== Degrees of success
+In some situations, how successful you are is more interesting than just a binary success or failure. In that case, higher successful rolls are better.  In other words, rolling exactly equal to your level is the best you can do.
+
+In some situations, there may be two separate degrees of success. In that case, you pick which die is used for which. Each die indicates a degree of success from zero to nine.  Higher is usually better. For instance, in <<combat.adoc#combat,combat>> after a successful attack you pick one die for damage, and the other for hit location.
+
+== Critical rolls
+If you roll doubles, i.e. the tens die and ones die match, it's a critical, meaning the effect of success or failure is magnified. Rolling exactly equal to your level is also a critical success. Rolling one hundred is always a critical failure.
+
+On a critical success, choose one of the following options, _not both_:
+
+. Take the result shown without spending your <<combat.adoc#_actions,action>>. In other words, if you keep rolling critical successes, you can keep taking actions.
+. Adjust the dice to any number equal to or under your level.
+.. If you rolled exactly your level, you can adjust the dice to any number equal to or under your *max* level.
+
+On a critical failure, something especially bad happens. Out of combat, the GM decides. In combat there are some specific options, but the default is that you lose your next action.
+
+== Good rolls
+If you are *good* at the action you're rolling for, usually due to an <<abilities.adoc#abilities,ability>>, you may re-roll one or both dice after seeing the initial result. You must keep the second result.  You can't re-roll one die, see the result, and then re-roll the other.  If you're playing online using a die-rolling app, be sure to specify up front whether you're rerolling the ones or tens die.  You can get a critical success on a re-roll.  Critical failures can't be re-rolled.
+
+== Opposed rolls
+In some situations characters' actions directly oppose each other, e.g. attempting to defend an attack. In that case, highest successful roll wins.  On a tie of a PC vs an NPC, the PC wins. It's winner take all, the loser gets no degree of success, and does not reduce the winner's degree of success.  If both fail the result is a failure for both. A critical success does not beat a higher normal success. If the loser rolled a critical success, they still benefit from effects they chose (such as not spending their action), as long as those effects don't require a degree of success.
