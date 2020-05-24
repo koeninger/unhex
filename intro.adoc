@@ -10,7 +10,7 @@ This is a tactical tabletop roleplaying game that doesn't depend on hex or squar
 * Paper
 * Printouts of the character sheet at the end of the book, or more blank paper
 * Percentile dice. You need separate dice for the tens and ones digits, not a 100 sided die.
-* If you're playing online, some way to share a basic drawing
+* If you're playing online, some way to share a basic drawing. I like excalidraw.com
 
 == Participants
 

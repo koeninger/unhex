@@ -1,7 +1,42 @@
 [#combat]
 
 = Combat
+image::nightclub.png[]
+<<<
+== Maps
+Use a simple map of the different areas reachable in combat, indicating which lines of movement, sight, and cover are available. The important point is to make the consequences of positioning unambiguous before combat begins, in order to avoid confusion or GM fiat during combat. It's up to you whether you use tokens or minis to indicate where charaters are, or use "theater of the mind".
 
-== Map
+The example map on the previous page shows the drawing conventions I use. You're welcome to use your own as long as they're consistent and players understand.
+
+The GM decides which areas NPCs are in at the start of combat, the players decide where PCs are, within limits set by the GM.  In the example, the GM might tell PCs they can start in the entrance or alley.
+
+=== Movement
+Solid lines connecting areas indicate you can see and move between them.  Moving from one area to an immediately connected area takes one action.  Any number of characters can be in an area.  If you want to indicate a one-way transition between areas (jumping down?) use an arrow. I don't think doors are interesting, but if you do, use a box along the connection and require an action to open / close them.
+
+=== Cover
+A solid mark perpendicular to the connection into an area means characters in that area benefit from cover against ranged attacks along that connection. Cover means if you are hit by a ranged attack, you get to choose which die is used for damage and which is used for location. In the example, a character in the bar would have cover against a shot from the dance floor.  That same character in the bar would not have cover against an attack from the catwalk.
+
+Don't consider the attacker's area when determining cover. A character on the dance floor would not have cover against a shot from the bar.
+
+When checking for cover along multiple connections, if at least one of the shortest paths has cover, the target benefits from cover. In the example, a character in the bar would have cover against a shot from the DJ booth.
+
+Only things shown on the map can provide cover, not other characters.  Shields have a similar effect, but are not cover and do not affect line of sight.
+
+=== Range
+Count the number of connections on the shortest path between the areas. Characters in your area are at range zero. Characters in an immediately connected area are at range one, two areas away at range two, and so on.  In the example, the range from the entrance to the dance floor is one, from the entrance to the catwalk is two.
+
+If a character is in the process of moving between areas, use the smaller range. A character moving into or out of your area is at range zero, and so on. In the example, the range from the entrance to a character moving between the catwalk and dance floor is one.
+
+=== Line of Sight
+To determine whether you have line of sight to an area, count the number of cover marks (not including your area) along the shortest path.  If one of the shortest paths crosses two or more cover marks, you don't have line of sight. In the example, a character in the alley has line of sight to the kitchen, but not the bar. A character in the pool tables has line of sight to the bar, but not the kitchen.
+
+Dashed lines connecting areas indicate you can draw line of sight between the areas, but not move directly between them. In the example, a character on the catwalk can see someone on the dance floor and vice versa, but can not move directly between them. They would have to move to the DJ booth first.
+
+There's no distinction between line of sight and line of effect, if you can see it you can shoot it. I advise against making a one-way line of sight. In the rare situation where there shouldn't be line of sight between two areas, but you don't want to add enough cover to prevent it, use a dashed line with an X in the middle.
+
+=== Points of interest
+If there are things that are important to the scenario (arcane portals that will close?  bombs to defuse?) mark them on the map.
+
+<<<
 
 == Actions
