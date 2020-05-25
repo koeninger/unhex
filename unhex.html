@@ -451,7 +451,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_why_this_game">Why this game?</h3>
 <div class="paragraph">
-<p>This is a tactical tabletop roleplaying game that doesn&#8217;t depend on hex or square grid maps for interesting positional decisions. The rules should fit in your head.  Actions are resolved with a single roll to determine success, including damage and hit location. You only have a <a href="#level">single target number</a> to keep track of, and no modifiers.</p>
+<p>This is a tactical tabletop roleplaying game that doesn&#8217;t depend on hex or square grid maps for interesting positional decisions. The rules should fit in your head.  Actions are resolved with a single roll to determine success, including damage and hit location. You only have a <a href="level.html#level">single target number</a> to keep track of, and no modifiers.</p>
 </div>
 </div>
 <div class="sect2">
@@ -494,18 +494,48 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="level">Level</h2>
+<h2 id="characters">Characters</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>To create a character, decide on a concept, a name, and a description, then fill in your character sheet.</p>
+</div>
+<div class="sect2">
+<h3 id="_level">Level</h3>
 <div class="paragraph">
 <p>Your level is your basic percentage chance of success when <a href="#dice">rolling dice</a>.  Your current and <strong>max</strong> level start at 50, and are tracked separately on your character sheet.  The word 'level' by itself always refers to current level unless prefixed with <strong>max</strong>.</p>
 </div>
-<div class="sect2">
-<h3 id="_level_changes">Level changes</h3>
 <div class="paragraph">
-<p>Your level can decrease when you&#8217;re hurt and increase when you rest. It can&#8217;t increase higher than your <strong>max</strong> level. If it reaches zero, you&#8217;re unconscious.</p>
+<p>Your level can decrease when you&#8217;re <a href="#damage">hurt in combat</a> and increase when you <a href="resting.html#resting">rest</a>. It can&#8217;t increase higher than your <strong>max</strong> level. If it reaches zero, you&#8217;re <a href="#unconsciousness">unconscious</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_abilities">Abilities</h3>
+<div class="paragraph">
+<p><a href="#abilities">Abilities</a> give you different beneficial special rules. You start with one non-combat ability and one combat ability.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_items">Items</h3>
+<div class="paragraph">
+<p>You start with 5 slots for combat related <a href="#items">[items]</a>. The number and type of non-combat items you can have are up to you, as long as the GM agrees. You can change or replace items when you rest.</p>
 </div>
 <div class="paragraph">
-<p>All players' <strong>max</strong> level increases by 1 at the end of a session if they achieved their goal for that session.</p>
+<p>Use the top slot(s) on the sheet for the items you typically want in your hands at the start of combat. Items will specify whether they require one or two hands. I&#8217;m assuming humanlike physiology, if you want to play an octopus work it out with the GM.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_advancement">Advancement</h3>
+<div class="paragraph">
+<p>All players' <strong>max</strong> level increases by 1 at the end of a session if they achieved their goal for that session.  Near the beginning of a session the players should agree on a single goal collectively.  The GM may set the scene, and may warn players when a goal isn&#8217;t likely to be achieveable by the end of a session, but may not choose a goal for the players.</p>
+</div>
+<div class="paragraph">
+<p>When your level increases to a number ending in 5 you get another slot for items. At level 55 you can have up to 6 combat related items, at level 65 up to 7, etc.</p>
+</div>
+<div class="paragraph">
+<p>When your level increases to a number ending in 0 you choose another ability. At level 60 you can choose a second combat or non-combat ability, at level 70 another, etc.</p>
+</div>
+<div class="paragraph">
+<p>Your <strong>max</strong> level can&#8217;t increase beyond 99.</p>
 </div>
 </div>
 </div>
@@ -542,7 +572,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Take the result shown without spending your <a href="#_actions">action</a>. In other words, if you keep rolling critical successes, you can keep taking actions.</p>
+<p>Take the result shown and gain another <a href="#_actions">action</a>. In other words, if you keep rolling critical successes, you can keep taking actions.</p>
 </li>
 <li>
 <p><em>Or</em> adjust the dice to any number equal to or under your level. If you rolled exactly your level, you can adjust the dice to any number equal to or under your <strong>max</strong> level, and it is still treated as a success.</p>
@@ -568,19 +598,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="abilities">Abilities</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_non_combat_abilities">Non-combat abilities</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_combat_abilities">Combat abilities</h3>
-
-</div>
-</div>
-</div>
-<div class="sect1">
 <h2 id="combat">Combat</h2>
 <div class="sectionbody">
 <div class="imageblock">
@@ -598,60 +615,318 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>The example map on the previous page shows the drawing conventions I use. You&#8217;re welcome to use your own as long as they&#8217;re consistent and players understand.</p>
 </div>
 <div class="paragraph">
-<p>The GM decides which areas NPCs are in at the start of combat, the players decide where PCs are, within limits set by the GM.  In the example, the GM might tell PCs they can start in the entrance or alley.</p>
+<p>The GM decides which areas NPCs are in at the start of combat, the players decide where PCs are, within limits set by the GM.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>In the example map, the GM might tell PCs they can start in the entrance or alley.</p>
+</div>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_movement">Movement</h4>
 <div class="paragraph">
-<p>Solid lines connecting areas indicate you can see and move between them.  Moving from one area to an immediately connected area takes one action.  Any number of characters can be in an area.  If you want to indicate a one-way transition between areas (jumping down?) use an arrow. I don&#8217;t think doors are interesting, but if you do, use a box along the connection and require an action to open / close them.</p>
+<p>Solid lines connecting areas indicate you can see and move between them.  Moving from one area to an immediately connected area takes one action.</p>
+</div>
+<div class="paragraph">
+<p>Any number of characters can be in an area, and are assumed to be making small movements within that area during combat.  If you want to indicate a one-way transition between areas (jumping down?) use an arrow. I don&#8217;t think doors are interesting, but if you do, use a box along the connection and require an action to open / close them.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_cover">Cover</h4>
 <div class="paragraph">
-<p>A solid mark perpendicular to the connection into an area means characters in that area benefit from cover against ranged attacks along that connection. Cover means if you are hit by a ranged attack, you get to choose which die is used for damage and which is used for location. In the example, a character in the bar would have cover against a shot from the dance floor.  That same character in the bar would not have cover against an attack from the catwalk.</p>
+<p>A solid mark perpendicular to the connection into an area means characters in that area benefit from cover against attacks originating from the other area. If you benefit from cover, you get to choose which die is used for damage and which is used for location, instead of your attacker.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>A character in the bar would have cover against a shot from the dance floor.  That same character in the bar would not have cover against an attack from the catwalk.</p>
+</div>
+</div>
 </div>
 <div class="paragraph">
-<p>Don&#8217;t consider the attacker&#8217;s area when determining cover. A character on the dance floor would not have cover against a shot from the bar.</p>
+<p>Don&#8217;t consider the attacker&#8217;s area when determining cover.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>A character on the dance floor would not have cover against a shot from the bar.</p>
+</div>
+</div>
 </div>
 <div class="paragraph">
-<p>When checking for cover along multiple connections, if at least one of the shortest paths has cover, the target benefits from cover. In the example, a character in the bar would have cover against a shot from the DJ booth.</p>
+<p>When checking for cover along multiple connections, if at least one of the shortest paths has cover, the target benefits from cover.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>A character in the bar would have cover against a shot from the DJ booth.</p>
+</div>
+</div>
 </div>
 <div class="paragraph">
 <p>Only things shown on the map can provide cover, not other characters.  Shields have a similar effect, but are not cover and do not affect line of sight.</p>
+</div>
+<div class="paragraph">
+<p>Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, or to ranged attacks by a character in your area.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_range">Range</h4>
 <div class="paragraph">
-<p>Count the number of connections on the shortest path between the areas. Characters in your area are at range zero. Characters in an immediately connected area are at range one, two areas away at range two, and so on.  In the example, the range from the entrance to the dance floor is one, from the entrance to the catwalk is two.</p>
+<p>To make an attack you must be within range of your target. Maximum range is determined by the item or ability you&#8217;re using to attack. Melee attacks all have a range of zero.  One-handed ranged attacks have a range of zero to one, inclusive.  Two-handed ranged attacks have a range of one up to anywhere on the map within line of sight, but can&#8217;t attack at range zero.</p>
 </div>
 <div class="paragraph">
-<p>If a character is in the process of moving between areas, use the smaller range. A character moving into or out of your area is at range zero, and so on. In the example, the range from the entrance to a character moving between the catwalk and dance floor is one.</p>
+<p>Count the number of connections on the shortest path between the areas. Characters in your area are at range zero. Characters in an immediately connected area are at range one, two areas away at range two, and so on.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>The range from the entrance to the dance floor is one. The range from the entrance to the catwalk is two.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>If a character is in the process of moving between areas, use the smaller range. A character moving into or out of your area is at range zero, and so on.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>The range from the entrance to a character moving between the catwalk and dance floor is one.</p>
+</div>
+</div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_line_of_sight">Line of Sight</h4>
 <div class="paragraph">
-<p>To determine whether you have line of sight to an area, count the number of cover marks (not including your area) along the shortest path.  If one of the shortest paths crosses two or more cover marks, you don&#8217;t have line of sight. In the example, a character in the alley has line of sight to the kitchen, but not the bar. A character in the pool tables has line of sight to the bar, but not the kitchen.</p>
+<p>To make a ranged attack, you must have line of sight to your target.</p>
 </div>
 <div class="paragraph">
-<p>Dashed lines connecting areas indicate you can draw line of sight between the areas, but not move directly between them. In the example, a character on the catwalk can see someone on the dance floor and vice versa, but can not move directly between them. They would have to move to the DJ booth first.</p>
+<p>To determine whether you have line of sight to an area, count the number of cover marks (not including your area) along the shortest path.  If one of the shortest paths crosses two or more cover marks, you don&#8217;t have line of sight. You always have line of sight to a target in your area, even if there&#8217;s cover in all directions.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>A character in the alley has line of sight to the kitchen, but not the bar. A character in the pool tables has line of sight to the bar, but not the kitchen. A character in the DJ booth has line of sight to another character in the DJ booth.</p>
+</div>
+</div>
 </div>
 <div class="paragraph">
-<p>There&#8217;s no distinction between line of sight and line of effect, if you can see it you can shoot it. I advise against making a one-way line of sight. In the rare situation where there shouldn&#8217;t be line of sight between two areas, but you don&#8217;t want to add enough cover to prevent it, use a dashed line with an X in the middle.</p>
+<p>Dashed lines connecting areas indicate you can draw line of sight between the areas, but not move directly between them.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>A character on the catwalk can see someone on the dance floor and vice versa, but can not move directly between them. They would have to move to the DJ booth first.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>There&#8217;s no distinction between line of sight and line of effect, if you can see it you can shoot it. I advise against making a one-way line of sight. In the rare situation where there shouldn&#8217;t be line of sight between two areas, but you don&#8217;t want to add enough cover to prevent it, use a dashed line between the two with an X in the middle to indicate line of sight is blocked.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_points_of_interest">Points of interest</h4>
+<h4 id="_location_of_objectives">Location of Objectives</h4>
 <div class="paragraph">
-<p>If there are things that are important to the scenario (arcane portals that will close?  bombs to defuse?) mark them on the map.</p>
+<p>If there are places that are important to the scenario (arcane portals that will close?  bombs to defuse? avenues of retreat?) mark them on the map.</p>
 </div>
-<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rounds">Rounds</h3>
+<div class="paragraph">
+<p>Combat is divided into rounds, each of which has the following steps:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Initiative</p>
+</li>
+<li>
+<p>First team turn, takes actions until they are done</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Second team may react to each</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Second team turn, takes actions until they are done</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>First team may react to each</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Round ends, repeat</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Combat ends when:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Only one team has remaining characters who haven&#8217;t surrendered, gone unconscious, or retreated.</p>
+</li>
+<li>
+<p><em>Or</em> a GM specified objective is met</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_initiative">Initiative</h3>
+<div class="paragraph">
+<p>Initiative is an opposed roll between the single highest level character from each team. The winner of initiative decides the order teams act in, it doesn&#8217;t have to be winning team first.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>Several rounds into combat, the PCs have been beat up a bit, so their highest level character is at 40. The NPCs are in worse shape, with a highest level of 25.  The PCs roll a 34, the NPCs roll a 62, failing.  The PCs decide to let the NPCs go first, intending to react to their expected attempts at moving to retreat.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>There are usually two sides to combat, one team of PCs vs one team of NPCs. If for some reason there are more teams, it&#8217;s a single multi-way opposed roll between the highest level character from each team, highest roll decides the order all teams act in.</p>
+</div>
+<div class="paragraph">
+<p>A critical success on initiative is an extra action for the rolling character, a critical failure is a loss of an action. If the NPCs have been wounded in prior rounds and roll a critical failure for initiative, the GM should have them retreat or surrender as appropriate.</p>
+</div>
+<div class="paragraph">
+<p>If there&#8217;s a tie for initiative (e.g. both sides fail), initiative stays with the team that had it prior round. If it&#8217;s the first round the tie goes to the PCs. Similarly, if the order dice are rolled in is important (because one side is <strong>good</strong> at initiative and wants to see what number they&#8217;re trying to beat), it&#8217;s decided by who had the initiative prior round, or the PCs for first round.</p>
+</div>
+<div class="paragraph">
+<p>If there&#8217;s a tie for which characters are highest level, it&#8217;s up to that team who rolls. Order of actions within a team&#8217;s turn is up to that team. If there&#8217;s a dispute in either case, GM decides.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_actions">Actions</h3>
+<div class="paragraph">
+<p>Each character gets one action per round.  Your action may be used to act when it&#8217;s your team&#8217;s turn, or used to react when it&#8217;s another team&#8217;s turn.  Either case uses your action, you don&#8217;t get to use a single action to both act and react.</p>
+</div>
+<div class="paragraph">
+<p>You must declare that you are reacting before dice are rolled, so give people time to do so on your own actions. You can&#8217;t react to a reaction. If you don&#8217;t use your action during your team&#8217;s turn, and don&#8217;t get an opportunity to use it to react, it&#8217;s wasted.</p>
+</div>
+<div class="paragraph">
+<p>Act:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Attack</p>
+</li>
+<li>
+<p>Move</p>
+</li>
+<li>
+<p>Use or manage items</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>React:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Counterattack (react to attack)</p>
+</li>
+<li>
+<p>Defend (react to attack)</p>
+</li>
+<li>
+<p>Intercept (react to movement)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Dropping items currently in your hands or speaking a short sentence doesn&#8217;t take an action.  Anything more than that does, at the GM&#8217;s discrection.</p>
+</div>
+<div class="paragraph">
+<p>If you gain an action from a critical success, you must use it during this round. If you lose an action from a critical failure, and don&#8217;t have any additional actions this round, you lose it next round. Use a note or token of some kind to remind yourself.</p>
+</div>
+<div class="sect3">
+<h4 id="_attack">Attack</h4>
+<div class="paragraph">
+<p>Attacking requires that you have a weapon in hand or relevant ability, are in <a href="#range">range</a>, and have line of sight if needed. Make a roll. On a success, you choose one die for the amount of <a href="#damage">damage</a> your target takes and the other die for <a href="#hit_location">hit location</a>.  If the target benefits from <a href="#cover">cover</a>, they get to choose instead.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_move">Move</h4>
+<div class="paragraph">
+<p>Moving from one area to an immediately connected area takes one action, and doesn&#8217;t require a roll to succeed.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_use_or_manage_items">Use or manage items</h4>
+<div class="paragraph">
+<p>Rearranging which items are in your hands, including picking items up or stowing away items, takes a total of one action. Using an item already in your hands, or that is attached to your area on the map (e.g. a lever or terminal) takes one action.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_counterattack">Counterattack</h4>
+<div class="paragraph">
+<p>In response to an attack against you from a character <em>in your area</em>, you may use one action to counterattack using a <em>melee</em> weapon. This is not an opposed roll, you each make separate attack rolls and apply any effects simultaneously.</p>
+</div>
+<div class="paragraph">
+<p>To be explicit, you <em>can</em> counterattack against a ranged attack as long as is from a character in your area, i.e. range zero. You <em>cannot</em> counterattack using your own ranged weapon, even if it is effective at range zero.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_defend">Defend</h4>
+<div class="paragraph">
+<p>In response to an attack against you, you may use one action to defend. This is an opposed roll. If you win, the attack misses and does no damage.</p>
+</div>
+<div class="paragraph">
+<p>Defending against a ranged attack <em>requires</em> <a href="#cover">[cover]</a>. To be explicit, this means you cannot defend against a ranged attack at range 0, i.e. from a character in your area.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_damage">Damage</h3>
+<div class="sect3">
+<h4 id="_hit_location">Hit location</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_first_aid">First aid</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_unconsciousness">Unconsciousness</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_death">Death</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_at_the_end_of_combat">At the end of combat</h3>
+<div class="paragraph">
+<p>mark off ammo.  make any additional first aid rolls</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="abilities">Abilities</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_non_combat_abilities">Non-combat abilities</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_combat_abilities">Combat abilities</h3>
 
 </div>
 </div>
@@ -659,7 +934,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-05-23 16:58:27 -0500
+Last updated 2020-05-25 12:30:07 -0500
 </div>
 </div>
 </body>

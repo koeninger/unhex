@@ -8,35 +8,164 @@ Use a simple map of the different areas reachable in combat, indicating which li
 
 The example map on the previous page shows the drawing conventions I use. You're welcome to use your own as long as they're consistent and players understand.
 
-The GM decides which areas NPCs are in at the start of combat, the players decide where PCs are, within limits set by the GM.  In the example, the GM might tell PCs they can start in the entrance or alley.
+The GM decides which areas NPCs are in at the start of combat, the players decide where PCs are, within limits set by the GM.
+
+****
+In the example map, the GM might tell PCs they can start in the entrance or alley.
+****
 
 === Movement
-Solid lines connecting areas indicate you can see and move between them.  Moving from one area to an immediately connected area takes one action.  Any number of characters can be in an area.  If you want to indicate a one-way transition between areas (jumping down?) use an arrow. I don't think doors are interesting, but if you do, use a box along the connection and require an action to open / close them.
+Solid lines connecting areas indicate you can see and move between them.  Moving from one area to an immediately connected area takes one action.
+
+Any number of characters can be in an area, and are assumed to be making small movements within that area during combat.  If you want to indicate a one-way transition between areas (jumping down?) use an arrow. I don't think doors are interesting, but if you do, use a box along the connection and require an action to open / close them.
 
 === Cover
-A solid mark perpendicular to the connection into an area means characters in that area benefit from cover against ranged attacks along that connection. Cover means if you are hit by a ranged attack, you get to choose which die is used for damage and which is used for location. In the example, a character in the bar would have cover against a shot from the dance floor.  That same character in the bar would not have cover against an attack from the catwalk.
+A solid mark perpendicular to the connection into an area means characters in that area benefit from cover against attacks originating from the other area. If you benefit from cover, you get to choose which die is used for damage and which is used for location, instead of your attacker.
 
-Don't consider the attacker's area when determining cover. A character on the dance floor would not have cover against a shot from the bar.
+****
+A character in the bar would have cover against a shot from the dance floor.  That same character in the bar would not have cover against an attack from the catwalk.
+****
 
-When checking for cover along multiple connections, if at least one of the shortest paths has cover, the target benefits from cover. In the example, a character in the bar would have cover against a shot from the DJ booth.
+Don't consider the attacker's area when determining cover.
+
+****
+A character on the dance floor would not have cover against a shot from the bar.
+****
+
+When checking for cover along multiple connections, if at least one of the shortest paths has cover, the target benefits from cover.
+
+****
+A character in the bar would have cover against a shot from the DJ booth.
+****
 
 Only things shown on the map can provide cover, not other characters.  Shields have a similar effect, but are not cover and do not affect line of sight.
 
-=== Range
-Count the number of connections on the shortest path between the areas. Characters in your area are at range zero. Characters in an immediately connected area are at range one, two areas away at range two, and so on.  In the example, the range from the entrance to the dance floor is one, from the entrance to the catwalk is two.
+Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, or to ranged attacks by a character in your area.
 
-If a character is in the process of moving between areas, use the smaller range. A character moving into or out of your area is at range zero, and so on. In the example, the range from the entrance to a character moving between the catwalk and dance floor is one.
+=== Range
+To make an attack you must be within range of your target. Maximum range is determined by the item or ability you're using to attack. Melee attacks all have a range of zero.  One-handed ranged attacks have a range of zero to one, inclusive.  Two-handed ranged attacks have a range of one up to anywhere on the map within line of sight, but can't attack at range zero.
+
+Count the number of connections on the shortest path between the areas. Characters in your area are at range zero. Characters in an immediately connected area are at range one, two areas away at range two, and so on.
+
+****
+The range from the entrance to the dance floor is one. The range from the entrance to the catwalk is two.
+****
+
+If a character is in the process of moving between areas, use the smaller range. A character moving into or out of your area is at range zero, and so on.
+
+****
+The range from the entrance to a character moving between the catwalk and dance floor is one.
+****
 
 === Line of Sight
-To determine whether you have line of sight to an area, count the number of cover marks (not including your area) along the shortest path.  If one of the shortest paths crosses two or more cover marks, you don't have line of sight. In the example, a character in the alley has line of sight to the kitchen, but not the bar. A character in the pool tables has line of sight to the bar, but not the kitchen.
+To make a ranged attack, you must have line of sight to your target.
 
-Dashed lines connecting areas indicate you can draw line of sight between the areas, but not move directly between them. In the example, a character on the catwalk can see someone on the dance floor and vice versa, but can not move directly between them. They would have to move to the DJ booth first.
+To determine whether you have line of sight to an area, count the number of cover marks (not including your area) along the shortest path.  If one of the shortest paths crosses two or more cover marks, you don't have line of sight. You always have line of sight to a target in your area, even if there's cover in all directions.
 
-There's no distinction between line of sight and line of effect, if you can see it you can shoot it. I advise against making a one-way line of sight. In the rare situation where there shouldn't be line of sight between two areas, but you don't want to add enough cover to prevent it, use a dashed line with an X in the middle.
+****
+A character in the alley has line of sight to the kitchen, but not the bar. A character in the pool tables has line of sight to the bar, but not the kitchen. A character in the DJ booth has line of sight to another character in the DJ booth.
+****
 
-=== Points of interest
-If there are things that are important to the scenario (arcane portals that will close?  bombs to defuse?) mark them on the map.
+Dashed lines connecting areas indicate you can draw line of sight between the areas, but not move directly between them.
 
-<<<
+****
+A character on the catwalk can see someone on the dance floor and vice versa, but can not move directly between them. They would have to move to the DJ booth first.
+****
+
+There's no distinction between line of sight and line of effect, if you can see it you can shoot it. I advise against making a one-way line of sight. In the rare situation where there shouldn't be line of sight between two areas, but you don't want to add enough cover to prevent it, use a dashed line between the two with an X in the middle to indicate line of sight is blocked.
+
+=== Location of Objectives
+If there are places that are important to the scenario (arcane portals that will close?  bombs to defuse? avenues of retreat?) mark them on the map.
+
+
+== Rounds
+
+Combat is divided into rounds, each of which has the following steps:
+
+  . Initiative
+  . First team turn, takes actions until they are done
+  .. Second team may react to each
+  . Second team turn, takes actions until they are done
+  .. First team may react to each
+  . Round ends, repeat
+
+Combat ends when:
+
+* Only one team has remaining characters who haven't surrendered, gone unconscious, or retreated.
+* _Or_ a GM specified objective is met
+
+== Initiative
+
+Initiative is an opposed roll between the single highest level character from each team. The winner of initiative decides the order teams act in, it doesn't have to be winning team first. 
+
+****
+Several rounds into combat, the PCs have been beat up a bit, so their highest level character is at 40. The NPCs are in worse shape, with a highest level of 25.  The PCs roll a 34, the NPCs roll a 62, failing.  The PCs decide to let the NPCs go first, intending to react to their expected attempts at moving to retreat. 
+****
+
+There are usually two sides to combat, one team of PCs vs one team of NPCs. If for some reason there are more teams, it's a single multi-way opposed roll between the highest level character from each team, highest roll decides the order all teams act in.
+
+A critical success on initiative is an extra action for the rolling character, a critical failure is a loss of an action. If the NPCs have been wounded in prior rounds and roll a critical failure for initiative, the GM should have them retreat or surrender as appropriate.
+
+If there's a tie for initiative (e.g. both sides fail), initiative stays with the team that had it prior round. If it's the first round the tie goes to the PCs. Similarly, if the order dice are rolled in is important (because one side is *good* at initiative and wants to see what number they're trying to beat), it's decided by who had the initiative prior round, or the PCs for first round.
+
+If there's a tie for which characters are highest level, it's up to that team who rolls. Order of actions within a team's turn is up to that team. If there's a dispute in either case, GM decides.
 
 == Actions
+
+Each character gets one action per round.  Your action may be used to act when it's your team's turn, or used to react when it's another team's turn.  Either case uses your action, you don't get to use a single action to both act and react.
+
+You must declare that you are reacting before dice are rolled, so give people time to do so on your own actions. You can't react to a reaction. If you don't use your action during your team's turn, and don't get an opportunity to use it to react, it's wasted.
+
+Act:
+
+  * Attack
+  * Move
+  * Use or manage items
+
+React:
+
+  * Counterattack (react to attack)
+  * Defend (react to attack)
+  * Intercept (react to movement)
+
+Dropping items currently in your hands or speaking a short sentence doesn't take an action.  Anything more than that does, at the GM's discrection.
+
+If you gain an action from a critical success, you must use it during this round. If you lose an action from a critical failure, and don't have any additional actions this round, you lose it next round. Use a note or token of some kind to remind yourself.
+
+=== Attack
+
+Attacking requires that you have a weapon in hand or relevant ability, are in <<combat.adoc#range,range>>, and have line of sight if needed. Make a roll. On a success, you choose one die for the amount of <<combat.adoc#damage,damage>> your target takes and the other die for <<combat.adoc#hit_location,hit location>>.  If the target benefits from <<combat.adoc#cover,cover>>, they get to choose instead.
+
+=== Move
+
+Moving from one area to an immediately connected area takes one action, and doesn't require a roll to succeed.
+
+=== Use or manage items
+
+Rearranging which items are in your hands, including picking items up or stowing away items, takes a total of one action. Using an item already in your hands, or that is attached to your area on the map (e.g. a lever or terminal) takes one action.
+
+=== Counterattack
+
+In response to an attack against you from a character _in your area_, you may use one action to counterattack using a _melee_ weapon. This is not an opposed roll, you each make separate attack rolls and apply any effects simultaneously.
+
+To be explicit, you _can_ counterattack against a ranged attack as long as is from a character in your area, i.e. range zero. You _cannot_ counterattack using your own ranged weapon, even if it is effective at range zero.
+
+=== Defend
+
+In response to an attack against you, you may use one action to defend. This is an opposed roll. If you win, the attack misses and does no damage.
+
+Defending against a ranged attack _requires_ <<combat.adoc#cover>>. To be explicit, this means you cannot defend against a ranged attack at range 0, i.e. from a character in your area.
+
+== Damage
+
+=== Hit location
+
+=== First aid
+
+=== Unconsciousness
+
+=== Death
+
+== At the end of combat
+
+mark off ammo.  make any additional first aid rolls

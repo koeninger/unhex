@@ -16,7 +16,7 @@ If you roll doubles, i.e. the tens die and ones die match, it's a critical, mean
 
 If you roll a critical success, choose one of the following options, _not both_:
 
-. Take the result shown without spending your <<combat.adoc#_actions,action>>. In other words, if you keep rolling critical successes, you can keep taking actions.
+. Take the result shown and gain another <<combat.adoc#_actions,action>>. In other words, if you keep rolling critical successes, you can keep taking actions.
 . _Or_ adjust the dice to any number equal to or under your level. If you rolled exactly your level, you can adjust the dice to any number equal to or under your *max* level, and it is still treated as a success.
 
 If you roll a critical failure, something especially bad happens. Out of combat, the GM decides. In combat there are some specific options, but the default is that you lose your next action.

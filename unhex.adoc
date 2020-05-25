@@ -8,11 +8,16 @@ ifndef::ebook-format[:leveloffset: 1]
 
 include::intro.adoc[]
 
-include::level.adoc[]
+include::characters.adoc[]
 
 include::dice.adoc[]
 
+include::combat.adoc[]
+
+include::items.adoc[]
+
 include::abilities.adoc[]
 
-include::combat.adoc[]
+
+
 
