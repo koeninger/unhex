@@ -15,7 +15,7 @@ In the example map, the GM might tell PCs they can start in the entrance or alle
 ****
 
 === Movement
-Solid lines connecting areas indicate you can see and move between them.  Moving from one area to an immediately connected area takes one action.
+Solid lines connecting areas indicate you can both see and move between them.  Moving from one area to an immediately connected area takes one action.
 
 Any number of characters can be in an area, and are assumed to be making small movements within that area during combat.  If you want to indicate a one-way transition between areas (jumping down?) use an arrow. I don't think doors are interesting, but if you do, use a box along the connection and require an action to open / close them.
 
@@ -38,12 +38,12 @@ When checking for cover along multiple connections, if at least one of the short
 A character in the bar would have cover against a shot from the DJ booth.
 ****
 
-Only things shown on the map can provide cover, not other characters.  Shields have a similar effect, but are not cover and do not affect line of sight.
+Only cover marks shown on the map can provide cover, not intervening characters.
 
 Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, or to ranged attacks by a character in your area.
 
 === Range
-To make an attack you must be within range of your target. Maximum range is determined by the item or ability you're using to attack. Melee attacks all have a range of zero.  One-handed ranged attacks have a range of zero to one, inclusive.  Two-handed ranged attacks have a range of one up to anywhere on the map within line of sight, but can't attack at range zero.
+To make an attack you must be within range of your target. Melee attacks have a range of zero.  Items or abilities that can be used to make ranged attacks will define their usable range.
 
 Count the number of connections on the shortest path between the areas. Characters in your area are at range zero. Characters in an immediately connected area are at range one, two areas away at range two, and so on.
 
@@ -51,14 +51,14 @@ Count the number of connections on the shortest path between the areas. Characte
 The range from the entrance to the dance floor is one. The range from the entrance to the catwalk is two.
 ****
 
-If a character is in the process of moving between areas, use the smaller range. A character moving into or out of your area is at range zero, and so on.
+If a character is in the process of moving between areas, use the smaller range. This is relevant for <<combat.adoc#intercept, intercept>> reactions. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on.
 
 ****
 The range from the entrance to a character moving between the catwalk and dance floor is one.
 ****
 
 === Line of Sight
-To make a ranged attack, you must have line of sight to your target.
+To make an attack, you must have line of sight to your target.
 
 To determine whether you have line of sight to an area, count the number of cover marks (not including your area) along the shortest path.  If one of the shortest paths crosses two or more cover marks, you don't have line of sight. You always have line of sight to a target in your area, even if there's cover in all directions.
 
@@ -72,7 +72,7 @@ Dashed lines connecting areas indicate you can draw line of sight between the ar
 A character on the catwalk can see someone on the dance floor and vice versa, but can not move directly between them. They would have to move to the DJ booth first.
 ****
 
-There's no distinction between line of sight and line of effect, if you can see it you can shoot it. I advise against making a one-way line of sight. In the rare situation where there shouldn't be line of sight between two areas, but you don't want to add enough cover to prevent it, use a dashed line between the two with an X in the middle to indicate line of sight is blocked.
+There are no situations where line of sight is one-way, nor where you have line of sight and range but are prevented by the map from attacking. In the rare situation where there shouldn't be line of sight between two areas, but you don't want to add enough cover to prevent it, use a dashed line between the two with an X in the middle to indicate line of sight is blocked.
 
 === Location of Objectives
 If there are places that are important to the scenario (arcane portals that will close?  bombs to defuse? avenues of retreat?) mark them on the map.
@@ -83,10 +83,12 @@ If there are places that are important to the scenario (arcane portals that will
 Combat is divided into rounds, each of which has the following steps:
 
   . Initiative
-  . First team turn, takes actions until they are done
-  .. Second team may react to each
-  . Second team turn, takes actions until they are done
-  .. First team may react to each
+  . First team turn
+  .. First team takes actions until they are done
+  ... Second team may react to each action
+  . Second team turn
+  .. Second team takes actions until they are done
+  ... First team may react to each action
   . Round ends, repeat
 
 Combat ends when:
@@ -112,9 +114,9 @@ If there's a tie for which characters are highest level, it's up to that team wh
 
 == Actions
 
-Each character gets one action per round.  Your action may be used to act when it's your team's turn, or used to react when it's another team's turn.  Either case uses your action, you don't get to use a single action to both act and react.
+Each character gets one action per round.  Your action may be used to act when it's your team's turn, or used to react when it's another team's turn.  Either case uses your action, you cannot both act and react using a single action.
 
-You must declare that you are reacting before dice are rolled, so give people time to do so on your own actions. You can't react to a reaction. If you don't use your action during your team's turn, and don't get an opportunity to use it to react, it's wasted.
+You must declare that you are reacting before dice are rolled, so give people time to do so on your own actions. You can react at most once per action. You cannot react to a reaction. If you don't use your action during your team's turn, and don't get an opportunity to use it to react, it's wasted.
 
 Act:
 
@@ -134,7 +136,7 @@ If you gain an action from a critical success, you must use it during this round
 
 === Attack
 
-Attacking requires that you have a weapon in hand or relevant ability, are in <<combat.adoc#range,range>>, and have line of sight if needed. Make a roll. On a success, you choose one die for the amount of <<combat.adoc#damage,damage>> your target takes and the other die for <<combat.adoc#hit_location,hit location>>.  If the target benefits from <<combat.adoc#cover,cover>>, they get to choose instead.
+Attacking requires that you are in <<combat.adoc#range,range>>, have line of sight, and already have in hand any item you're using to attack. Make a roll. On a success, you choose one die for the amount of <<combat.adoc#damage,damage>> your target takes and the other die for <<combat.adoc#hit_location,hit location>>.  If the target benefits from <<combat.adoc#cover,cover>>, they get to choose instead.
 
 === Move
 
@@ -142,30 +144,88 @@ Moving from one area to an immediately connected area takes one action, and does
 
 === Use or manage items
 
-Rearranging which items are in your hands, including picking items up or stowing away items, takes a total of one action. Using an item already in your hands, or that is attached to your area on the map (e.g. a lever or terminal) takes one action.
+Rearranging which items are in your hands, including picking items up or stowing away items, takes a total of one action. Using an item already in your hands, or attached to your area on the map (e.g. a lever or terminal), for something other than attack takes one action.
 
 === Counterattack
 
-In response to an attack against you from a character _in your area_, you may use one action to counterattack using a _melee_ weapon. This is not an opposed roll, you each make separate attack rolls and apply any effects simultaneously.
+In reaction to an attack against you from a character _in your area_, you may use one action to counterattack using a _melee_ weapon. This is not an opposed roll, you each make separate attack rolls and apply any effects simultaneously.
 
-To be explicit, you _can_ counterattack against a ranged attack as long as is from a character in your area, i.e. range zero. You _cannot_ counterattack using your own ranged weapon, even if it is effective at range zero.
+You cannot counterattack against an attack targeting someone other than you. You cannot counterattack _using_ a ranged weapon, even if it is effective at range zero. You can counterattack _against_ a ranged attack as long as is from a character in your area, i.e. range zero. 
 
 === Defend
 
-In response to an attack against you, you may use one action to defend. This is an opposed roll. If you win, the attack misses and does no damage.
+In reaction to an attack against you, you may use one action to defend. This is an opposed roll. If you win, the attack misses and does no damage.
 
-Defending against a ranged attack _requires_ <<combat.adoc#cover>>. To be explicit, this means you cannot defend against a ranged attack at range 0, i.e. from a character in your area.
+In general, you must spend one action per attack you defend against.
+
+=== Intercept
+
+In reaction to movement within your line of sight and range, you may use one action to attack the moving character. If the effect of your attack forces them to stop moving, you decide which area they end up in.
 
 == Damage
 
+When you are damaged by an attack, mark the corresponding number of boxes on the hit location section of your character sheet.  Mark the boxes initially using a \ slash, indicating a wound that may be treatable by <<combat.adoc#first_aid,first aid>>. A mark of X is used to indicate a wound that cannot be treated by first aid, only by <<resting.adoc#resting, resting>>. Marking by completely filling a box is used to indicate a permanent wound that cannot be treated.
+
 === Hit location
+
+The numbers on the die used for hit location correspond to six locations on the body, the higher the number the closer to the head:
+
+[%autowidth]
+|===
+|9 | Head | ☐ ☐ ☐ ☐ ☐
+|8 | Right Arm | ☐ ☐ ☐ ☐ ☐
+|7 | Left Arm | ☐ ☐ ☐ ☐ ☐
+.3+|4-6 .3+|Torso | ☐ ☐ ☐ ☐ ☐
+                  | ☐ ☐ ☐ ☐ ☐
+                  | ☐ ☐ ☐ ☐ ☐
+.2+|2-3 .2+|Right Leg |  ☐ ☐ ☐ ☐ ☐
+                      |  ☐ ☐ ☐ ☐ ☐
+.2+|0-1 .2+|Left Leg  |  ☐ ☐ ☐ ☐ ☐
+                      |  ☐ ☐ ☐ ☐ ☐
+|===
+
+When all of the boxes in a location are marked:
+
+  . Decrease your level by the total count of boxes in that location.
+  . Apply the appropriate penalty for that type of location:
+  .. Head: <<combat.adoc#unconsciousness, unconsciousness>>
+  .. Arm: Drop any item held in that hand. You can't use that hand.
+  .. Torso: <<combat.adoc#unconsciousness, unconsciousness>>
+  .. Leg: Immediately stop moving. You cannot move unless both hands are empty.
+  .. Both Legs: Immediately stop moving. You cannot move.
+
+If there's additional damage to that location, either from this attack or a future attack, apply it to the torso.
+
+****
+You already had 7 boxes marked on your right leg.  You move from the dance floor to the bar. An opponent intercepts and hits you with an attack roll of 24.  They choose 4 damage to location 2 (right leg). You mark the remaining 3 boxes in your right leg, and an additional 1 box on your torso. You decrease your level by 10. You stop moving, and the opponent chooses the dance floor as the area you stop in.
+****
 
 === First aid
 
+First aid requires an appropriate <<items.adoc#first_aid,item>> in your hand. First aid has a range of zero to the character being treated, which can be yourself. Spend an action and roll.
+
+On a success, choose one die for the total number of boxes, and the other die for the number of _additional_ locations beyond one. Erase \ marks from the chosen number of boxes, distributed among at most that many locations. Replace any remaining \ marks with an X.
+
+****
+Your ally has 2 \ marks on their head, and 1 on each arm. You succeed at first aid with a roll of 14. You choose 4 boxes and 1 additional location. You erase 2 marks from their head and 1 from their right arm. You can only treat 2 locations, so you replace the left arm mark with an X.
+****
+
+On a failure, erase the first aid item. Replace all \ marks with an X. On a critical failure, additionally replace a number of X marks up to the number shown on one of the dice (10 for a roll of 100, 9 for a 99, etc) with a permanent wound  Location of the permanent wounds is your choice.
+
+****
+Your ally has 5 \ marks on their head and 3 X marks on their right arm.  You critically fail at first aid with a roll of 66.  You erase your first aid item and replace all of the \ marks on their head with X. You then replace 3 of the X marks on their arm and 3 of the X marks on their head with filled boxes. 
+****
+
+Note that first aid does not increase your level, even if it was reduced by a location being filled with wounds. That means if a location is filled, then treated, if it is filled again your level is reduced again.
+
 === Unconsciousness
+
+If your level is zero or all of your head or torso boxes are marked, you are unconscious. When you are unconscious, you cannot spend actions or benefit from any of your abilities.
 
 === Death
 
-== At the end of combat
+If all of your head or torso boxes are permanently wounded, you are dead. Make a new character and the GM will help you rejoin the story at the first available opportunity. If you and everyone on your team is unconscious at the end of combat, your fate, potentially including death, is up to the GM.
 
-mark off ammo.  make any additional first aid rolls
+=== Surrender
+
+You may surrender at any point before an action that would affect you, as long as dice haven't been rolled yet. If you surrender, that action isn't spent and doesn't take effect.  Reduce your level to zero, you are out of the fight and effectively unconscious.

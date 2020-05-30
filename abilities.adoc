@@ -5,3 +5,6 @@
 == Non-combat abilities
 
 == Combat abilities
+
+=== 2 handed melee
+* wounds are X instead of \
