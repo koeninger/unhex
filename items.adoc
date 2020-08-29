@@ -1,0 +1,73 @@
+[#items]
+
+= Items
+
+== Non-combat items
+
+The effect of non-combat related items is up to the GM.
+
+== Combat items
+
+Unless otherwise specified, a combat related item takes up one slot on on your character sheet, and can be used without needing a related ability. Items will specify the circumstances in which they are destroyed, if any. Erase or otherwise note destroyed items.
+
+=== Armor
+
+Example: Plate mail, bulletproof vest, forcefield
+
+Armor takes up one slot per hit location. When you are damaged by an attack and have armor in that location, you may destroy it instead of reducing your level and marking boxes. You still suffer any other effects of the attack. You may not have more than 2 armor per hit location.
+
+=== Shield
+
+Example: viking shield, riot shield, magic bracer
+
+Holding a shield requires one hand. If you are hit by an attack while holding a shield you get to choose which die is used for damage and which is used for location, instead of your attacker. A shield is not cover and has no effect on line of sight. Shields are effective against ranged and melee attacks.
+
+=== First Aid
+
+Example: healing potion, first aid kit, nanomachines
+
+First aid items take up one slot per use. See the <<combat.adoc#first_aid, combat rules>> for first aid.
+
+=== Melee weapons
+
+==== 2 Handed (2H) melee weapons
+
+Example: greatsword, pickaxe, laser staff
+
+Attacking with a 2H melee weapon requires both hands. When marking wounds caused by a 2H melee weapon, use X instead of \.
+
+==== 1 handed (1H) melee weapons
+
+Example: sword, knife, brass knuckles
+
+Attacking with a 1H melee weapon requires one hand.
+
+=== Ranged weapons
+
+==== Ammo
+
+Attacking with a ranged weapon requires that you have at least one slot worth of ammo. On a critical failure for a ranged attack, in addition to losing your next action, destroy one slot of ammo. Reloading does not otherwise take an action. Compatibility of ammo among different ranged weapons is up to the GM.
+
+==== 2 Handed (2H) ranged weapons
+
+Example: longbow, rifle
+
+Attacking with a 2H ranged weapon requires both hands, and has a range of 1 or more, but not 0. The assumption is most combat maps take place within maximum range, exceptions are up to the GM.
+
+==== 1 handed (1H) ranged weapon
+
+Example: sling, pistol
+
+Attacking with a 1H ranged weapon requires one hand, and has a range of 0 or 1. You cannot use a shield and a 1H ranged weapon at the same time.
+
+=== Area of Effect (AoE) weapons
+
+Example: magic fireball scroll, grenade
+
+AoE weapons take one slot per attack and require both hands. They have a range of 0 or 1. Acquiring or using an AoE weapon requires a corresponding <<abililities.adoc#AoE,ability>>, see those rules for details.
+
+=== Less-lethal weapons
+
+Example: pommel, tranquilizer dart, phaser set on stun
+
+Less-lethal attacks only reduce level, they do not mark wounds. You may make less-lethal attacks with any melee weapon. Ranged less-lethal attacks require a separate ammo slot dedicated to that effect.

@@ -91,10 +91,7 @@ Combat is divided into rounds, each of which has the following steps:
   ... First team may react to each action
   . Round ends, repeat
 
-Combat ends when:
-
-* Only one team has remaining characters who haven't surrendered, gone unconscious, or retreated.
-* _Or_ a GM specified objective is met
+Combat ends when a GM specified objective is met, or when only one team has characters still conscious and in the fight.
 
 == Initiative
 
@@ -164,7 +161,9 @@ In reaction to movement within your line of sight and range, you may use one act
 
 == Damage
 
-When you are damaged by an attack, mark the corresponding number of boxes on the hit location section of your character sheet.  Mark the boxes initially using a \ slash, indicating a wound that may be treatable by <<combat.adoc#first_aid,first aid>>. A mark of X is used to indicate a wound that cannot be treated by first aid, only by <<resting.adoc#resting, resting>>. Marking by completely filling a box is used to indicate a permanent wound that cannot be treated.
+When you are damaged by an attack, reduce your level by the amount of damage and mark the corresponding number of boxes on the hit location section of your character sheet.
+
+Mark damage in empty ☐ boxes, normally using a \ slash, indicating a wound that may be treatable by <<combat.adoc#first_aid,first aid>>. A mark of X is used to indicate a wound that cannot be treated by first aid, only by <<resting.adoc#resting, resting>>. Marking by completely filling a box ■ is used to indicate a permanent wound that cannot be treated. A box is considered marked if it has any type of mark \, X, or ■.
 
 === Hit location
 
@@ -172,59 +171,57 @@ The numbers on the die used for hit location correspond to six locations on the 
 
 [%autowidth]
 |===
-|9 | Head | ☐ ☐ ☐ ☐ ☐
-|8 | Right Arm | ☐ ☐ ☐ ☐ ☐
-|7 | Left Arm | ☐ ☐ ☐ ☐ ☐
-.3+|4-6 .3+|Torso | ☐ ☐ ☐ ☐ ☐
-                  | ☐ ☐ ☐ ☐ ☐
-                  | ☐ ☐ ☐ ☐ ☐
-.2+|2-3 .2+|Right Leg |  ☐ ☐ ☐ ☐ ☐
-                      |  ☐ ☐ ☐ ☐ ☐
-.2+|0-1 .2+|Left Leg  |  ☐ ☐ ☐ ☐ ☐
-                      |  ☐ ☐ ☐ ☐ ☐
+|9 | Head | ☐ ☐ ☐
+|8 | Right Arm | ☐ ☐ ☐
+|7 | Left Arm | ☐ ☐ ☐
+.3+|4-6 .3+|Torso | ☐ ☐ ☐
+                  | ☐ ☐ ☐
+                  | ☐ ☐ ☐
+.2+|2-3 .2+|Right Leg |  ☐ ☐ ☐
+                      |  ☐ ☐ ☐
+.2+|0-1 .2+|Left Leg  |  ☐ ☐ ☐
+                      |  ☐ ☐ ☐
 |===
 
-When all of the boxes in a location are marked:
+When all of the boxes in a location are marked, apply the appropriate penalty for that type of location:
 
-  . Decrease your level by the total count of boxes in that location.
-  . Apply the appropriate penalty for that type of location:
   .. Head: <<combat.adoc#unconsciousness, unconsciousness>>
   .. Arm: Drop any item held in that hand. You can't use that hand.
   .. Torso: <<combat.adoc#unconsciousness, unconsciousness>>
-  .. Leg: Immediately stop moving. You cannot move unless both hands are empty.
+  .. Leg: Immediately stop moving. You cannot move without using 2 empty hands.
   .. Both Legs: Immediately stop moving. You cannot move.
 
 If there's additional damage to that location, either from this attack or a future attack, apply it to the torso.
 
 ****
-You already had 7 boxes marked on your right leg.  You move from the dance floor to the bar. An opponent intercepts and hits you with an attack roll of 24.  They choose 4 damage to location 2 (right leg). You mark the remaining 3 boxes in your right leg, and an additional 1 box on your torso. You decrease your level by 10. You stop moving, and the opponent chooses the dance floor as the area you stop in.
+You already had 3 boxes marked \ on your right leg.  You move from the dance floor to the bar. An opponent intercepts and hits you with an attack roll of 24.  They choose 4 damage to location 2 (right leg). You decrease your level by 4. You mark a \ in the remaining 3 boxes in your right leg, and an additional 1 box on your torso. You stop moving, and the opponent chooses the dance floor as the area you stop in.
 ****
 
 === First aid
 
-First aid requires an appropriate <<items.adoc#first_aid,item>> in your hand. First aid has a range of zero to the character being treated, which can be yourself. Spend an action and roll.
+First aid has a range of zero to the character being treated, which can be yourself. First aid requires an appropriate <<items.adoc#first_aid,item>> in your hand. Spend an action, destroy the item, and roll.
 
-On a success, choose one die for the total number of boxes, and the other die for the number of _additional_ locations beyond one. Erase \ marks from the chosen number of boxes, distributed among at most that many locations. Replace any remaining \ marks with an X.
-
-****
-Your ally has 2 \ marks on their head, and 1 on each arm. You succeed at first aid with a roll of 14. You choose 4 boxes and 1 additional location. You erase 2 marks from their head and 1 from their right arm. You can only treat 2 locations, so you replace the left arm mark with an X.
-****
-
-On a failure, erase the first aid item. Replace all \ marks with an X. On a critical failure, additionally replace a number of X marks up to the number shown on one of the dice (10 for a roll of 100, 9 for a 99, etc) with a permanent wound  Location of the permanent wounds is your choice.
+On a success, choose one die for the total number of boxes, and the other die for the number of _additional_ locations beyond one. Erase \ marks from the chosen number of boxes, distributed among at most that many locations. Do not increase level. Replace any remaining \ marks with an X.
 
 ****
-Your ally has 5 \ marks on their head and 3 X marks on their right arm.  You critically fail at first aid with a roll of 66.  You erase your first aid item and replace all of the \ marks on their head with X. You then replace 3 of the X marks on their arm and 3 of the X marks on their head with filled boxes. 
+Your ally has 2 \ marks on their head, and 1 \ on each arm. You succeed at first aid with a roll of 14. You choose 4 boxes and 1 additional location. You erase 2 marks from their head and 1 from their right arm. You can only treat 2 locations, so you replace the left arm mark with an X.
 ****
 
-Note that first aid does not increase your level, even if it was reduced by a location being filled with wounds. That means if a location is filled, then treated, if it is filled again your level is reduced again.
+On a failure, replace all \ marks with an X.
+
+On a critical failure, instead of losing your next action, replace a number of pre-existing X marks up to the number shown on one of the dice (10 for a roll of 100, 9 for a 99, etc) with a permanent wound ■. Location of the permanent wounds is up to the player being treated. Then replace all \ marks with an X, as you would for a normal failure.
+
+****
+Your ally has 1 \ mark and 1 X mark on their head and 3 X marks on their right arm.  You critically fail at first aid with a roll of 66. You replace the X marks on their arm and head with ■ permanent wounds, for a total of 4. Even though that's less than the 6 on the die, there are no more X marks to replace. You then replace the \ mark on their head with an X.
+****
 
 === Unconsciousness
 
-If your level is zero or all of your head or torso boxes are marked, you are unconscious. When you are unconscious, you cannot spend actions or benefit from any of your abilities.
+If your level is below 10 or all of your head or torso boxes are marked, you are unconscious. When you are unconscious, you cannot spend actions and none of your abilities have an effect.
 
 === Death
 
-If all of your head or torso boxes are permanently wounded, you are dead. Make a new character and the GM will help you rejoin the story at the first available opportunity. If you and everyone on your team is unconscious at the end of combat, your fate, potentially including death, is up to the GM.
+If your level is below 0 or all of your head or torso boxes are marked with ■ permanent wounds, you are dead. Make a new character and the GM will help you rejoin the story at the first available opportunity. If you and everyone on your team is unconscious at the end of combat, your fate, potentially including death, is up to the GM.
 
 === Surrender
 

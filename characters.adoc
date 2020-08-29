@@ -2,7 +2,7 @@
 
 = Characters
 
-To create a character, decide on a concept, a name, and a description, then fill in your character sheet.
+Decide on a concept, a name, and a description, then fill in your character sheet.
 
 == Level
 
