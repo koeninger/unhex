@@ -40,7 +40,7 @@ A character in the bar would have cover against a shot from the DJ booth.
 
 Only cover marks shown on the map can provide cover, not intervening characters.
 
-Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, or to ranged attacks by a character in your area.
+Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, nor to ranged attacks within the same area. A target <<combat.adoc#intercept, intercepted>> while moving between areas does not benefit from cover.
 
 === Range
 To make an attack you must be within range of your target. Melee attacks have a range of zero.  Items or abilities that can be used to make ranged attacks will define their usable range.
@@ -51,7 +51,7 @@ Count the number of connections on the shortest path between the areas. Characte
 The range from the entrance to the dance floor is one. The range from the entrance to the catwalk is two.
 ****
 
-If a character is in the process of moving between areas, use the smaller range. This is relevant for <<combat.adoc#intercept, intercept>> reactions. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on.
+If a character is <<combat.adoc#intercept, intercepted>> while moving between areas, use the smaller range. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on.
 
 ****
 The range from the entrance to a character moving between the catwalk and dance floor is one.
