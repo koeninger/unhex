@@ -66,8 +66,8 @@ Example: magic fireball scroll, grenade
 
 AoE weapons take one slot per attack and require both hands. They have a range of 0 or 1. Acquiring or using an AoE weapon requires a corresponding <<abililities.adoc#AoE,ability>>, see those rules for details.
 
-=== Less-lethal weapons
+=== Less-lethal
 
 Example: pommel, tranquilizer dart, phaser set on stun
 
-Less-lethal attacks only reduce level, they do not mark wounds. You may make less-lethal attacks with any melee weapon. Ranged less-lethal attacks require a separate ammo slot dedicated to that effect.
+Less-lethal damage only reduces level, it does not mark wounds. You can inflict less-lethal damage with any melee weapon. Ranged less-lethal damage requires a separate ammo slot dedicated to that effect. Abilities that would apply to a given weapon and action also apply to the less-lethal version.

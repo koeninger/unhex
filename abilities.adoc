@@ -4,7 +4,55 @@
 
 == Non-combat abilities
 
+Choose a non-combat related activity for which you're *good* at die rolls. It's up to agreement between players and GM as to how specific the ability is. If one player wants to be "good at forensic accounting" and another wants to be "good at being a detective", that's fine as long as everyone is clear about when it applies. Clarify with the GM whether particular circumstances are appropriate for an ability before rolling the dice, don't argue for rerolls after the fact.
+
 == Combat abilities
 
-=== 2 handed melee
+Combat abilities are more specific. Each bullet point below is a separate ability. Many are specific to using particular items, e.g. being *good* at 2H melee is different from being *good* at 1H melee. Some abilities have explicit dependencies on another ability, but otherwise you can choose them in any order during advancement.
 
+In addition to *good*, combat abilities may grant the die roll modifiers *precise* or *powerful*. *Precise* means that after a hit location die is chosen for a successful roll, you can adjust that die up or down by 1. *Powerful* means that after a damage die is chosen for a successful roll, you can adjust that die up by 1. Before your initial roll for an action you must declare either *precise* or *powerful*, not both, but can still use *good* to reroll. You cannot adjust above 9 or below 0.
+
+Not all items have corresponding abilities for particular modifiers, this is intentional.
+
+=== Shield
+
+* *Good* Defend.
+* Can use your action to Defend another character.
+* Can Attack using a shield.
+* Can declare All-Out Defend after initiative but before any actions in a turn. During that turn you may Defend all attacks against you, but those rolls are not *good* and cannot be critical. During that turn you cannot take any other actions, and cannot defend other characters.
+
+=== First Aid
+
+* *Good* First Aid.
+* Before rolling for First Aid, you can instead choose to automatically succeed and erase only 1 \ mark, replacing the rest with X.
+
+=== 2H Melee
+
+* *Good* 2H melee Attack.
+* *Good* 2H melee Intercept and Counterattack.
+* *Powerful* 2H melee Attack.
+* *Precise* 2H melee Attack.
+* On a critical success, in addition to one of the standard effects, you can destroy 1 slot worth of items on your target.
+* Cannot be Counterattacked.
+
+=== 1H Melee
+
+* *Good* 1H melee Attack.
+* *Good* 1H melee Intercept and Counterattack.
+* *Precise* 1H melee Attack.
+* On a critical success, instead of gaining another action, you can force your target to lose their next action.
+
+=== 2H Ranged
+
+* *Good* 2H ranged Attack.
+* *Good* 2H ranged Intercept.
+* *Powerful* 2H ranged Attack.
+* *Precise* 2H ranged Attack.
+* Line of sight for 2H ranged Attack is prevented by 3 or more cover marks, not 2.
+
+=== 1H Ranged
+
+* *Good* 1H ranged Attack.
+* *Precise* 1H ranged Attack.
+
+=== Area of Effect (AoE)

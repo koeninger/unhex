@@ -40,7 +40,7 @@ A character in the bar would have cover against a shot from the DJ booth.
 
 Only cover marks shown on the map can provide cover, not intervening characters.
 
-Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, nor to ranged attacks within the same area. A target <<combat.adoc#intercept, intercepted>> while moving between areas does not benefit from cover.
+Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, nor to ranged attacks within the same area.
 
 === Range
 To make an attack you must be within range of your target. Melee attacks have a range of zero.  Items or abilities that can be used to make ranged attacks will define their usable range.
@@ -49,12 +49,6 @@ Count the number of connections on the shortest path between the areas. Characte
 
 ****
 The range from the entrance to the dance floor is one. The range from the entrance to the catwalk is two.
-****
-
-If a character is <<combat.adoc#intercept, intercepted>> while moving between areas, use the smaller range. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on.
-
-****
-The range from the entrance to a character moving between the catwalk and dance floor is one.
 ****
 
 === Line of Sight
@@ -123,9 +117,9 @@ Act:
 
 React:
 
-  * Counterattack (react to attack)
-  * Defend (react to attack)
-  * Intercept (react to movement)
+  * Counterattack (react to Attack)
+  * Defend (react to Attack)
+  * Intercept (react to Move)
 
 Dropping items currently in your hands or speaking a short sentence doesn't take an action.  Anything more than that does, at the GM's discrection.
 
@@ -145,9 +139,9 @@ Rearranging which items are in your hands, including picking items up or stowing
 
 === Counterattack
 
-In reaction to an attack against you from a character _in your area_, you may use one action to counterattack using a _melee_ weapon. This is not an opposed roll, you each make separate attack rolls and apply any effects simultaneously.
+In reaction to an attack against you from a character _in your area_, you may use one action to counterattack. This is not an opposed roll, you each make separate attack rolls and apply any effects simultaneously.
 
-You cannot counterattack against an attack targeting someone other than you. You cannot counterattack _using_ a ranged weapon, even if it is effective at range zero. You can counterattack _against_ a ranged attack as long as is from a character in your area, i.e. range zero. 
+You cannot counterattack against an attack targeting someone other than you. You can counterattack _using_ a ranged weapon only if it is effective at range 0. You can counterattack _against_ a ranged attack only if it is from a character in your area, i.e. range 0.
 
 === Defend
 
@@ -157,7 +151,11 @@ In general, you must spend one action per attack you defend against.
 
 === Intercept
 
-In reaction to movement within your line of sight and range, you may use one action to attack the moving character. If the effect of your attack forces them to stop moving, you decide which area they end up in.
+In reaction to movement within your line of sight and range, you may use one action to attack the moving character. Cover from either area does not apply. Use the smaller of the two ranges. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on. If the effect of your attack forces them to stop moving, you decide which area they end up in.
+
+****
+The range from the entrance to a character moving between the catwalk and dance floor is one.
+****
 
 == Damage
 

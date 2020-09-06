@@ -669,7 +669,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Only cover marks shown on the map can provide cover, not intervening characters.</p>
 </div>
 <div class="paragraph">
-<p>Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, nor to ranged attacks within the same area. A target <a href="#intercept">intercepted</a> while moving between areas does not benefit from cover.</p>
+<p>Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, nor to ranged attacks within the same area.</p>
 </div>
 </div>
 <div class="sect3">
@@ -684,16 +684,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="content">
 <div class="paragraph">
 <p>The range from the entrance to the dance floor is one. The range from the entrance to the catwalk is two.</p>
-</div>
-</div>
-</div>
-<div class="paragraph">
-<p>If a character is <a href="#intercept">intercepted</a> while moving between areas, use the smaller range. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on.</p>
-</div>
-<div class="sidebarblock">
-<div class="content">
-<div class="paragraph">
-<p>The range from the entrance to a character moving between the catwalk and dance floor is one.</p>
 </div>
 </div>
 </div>
@@ -879,10 +869,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="_counterattack">Counterattack</h4>
 <div class="paragraph">
-<p>In reaction to an attack against you from a character <em>in your area</em>, you may use one action to counterattack using a <em>melee</em> weapon. This is not an opposed roll, you each make separate attack rolls and apply any effects simultaneously.</p>
+<p>In reaction to an attack against you from a character <em>in your area</em>, you may use one action to counterattack. This is not an opposed roll, you each make separate attack rolls and apply any effects simultaneously.</p>
 </div>
 <div class="paragraph">
-<p>You cannot counterattack against an attack targeting someone other than you. You cannot counterattack <em>using</em> a ranged weapon, even if it is effective at range zero. You can counterattack <em>against</em> a ranged attack as long as is from a character in your area, i.e. range zero.</p>
+<p>You cannot counterattack against an attack targeting someone other than you. You can counterattack <em>using</em> a ranged weapon only if it is effective at range 0. You can counterattack <em>against</em> a ranged attack only if it is from a character in your area, i.e. range 0.</p>
 </div>
 </div>
 <div class="sect3">
@@ -897,7 +887,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="_intercept">Intercept</h4>
 <div class="paragraph">
-<p>In reaction to movement within your line of sight and range, you may use one action to attack the moving character. If the effect of your attack forces them to stop moving, you decide which area they end up in.</p>
+<p>In reaction to movement within your line of sight and range, you may use one action to attack the moving character. Cover from either area does not apply. Use the smaller of the two ranges. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on. If the effect of your attack forces them to stop moving, you decide which area they end up in.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>The range from the entrance to a character moving between the catwalk and dance floor is one.</p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -1147,12 +1144,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_less_lethal_weapons">Less-lethal weapons</h4>
+<h4 id="_less_lethal">Less-lethal</h4>
 <div class="paragraph">
 <p>Example: pommel, tranquilizer dart, phaser set on stun</p>
 </div>
 <div class="paragraph">
-<p>Less-lethal attacks only reduce level, they do not mark wounds. You may make less-lethal attacks with any melee weapon. Ranged less-lethal attacks require a separate ammo slot dedicated to that effect.</p>
+<p>Less-lethal damage only reduces level, it does not mark wounds. You can inflict less-lethal damage with any melee weapon. Ranged less-lethal damage requires a separate ammo slot dedicated to that effect. Abilities that would apply to a given weapon and action also apply to the less-lethal version.</p>
 </div>
 </div>
 </div>
@@ -1163,12 +1160,134 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_non_combat_abilities">Non-combat abilities</h3>
-
+<div class="paragraph">
+<p>Choose a non-combat related activity for which you&#8217;re <strong>good</strong> at die rolls. It&#8217;s up to agreement between players and GM as to how specific the ability is. If one player wants to be "good at forensic accounting" and another wants to be "good at being a detective", that&#8217;s fine as long as everyone is clear about when it applies. Clarify with the GM whether particular circumstances are appropriate for an ability before rolling the dice, don&#8217;t argue for rerolls after the fact.</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_combat_abilities">Combat abilities</h3>
+<div class="paragraph">
+<p>Combat abilities are more specific. Each bullet point below is a separate ability. Many are specific to using particular items, e.g. being <strong>good</strong> at 2H melee is different from being <strong>good</strong> at 1H melee. Some abilities have explicit dependencies on another ability, but otherwise you can choose them in any order during advancement.</p>
+</div>
+<div class="paragraph">
+<p>In addition to <strong>good</strong>, combat abilities may grant the die roll modifiers <strong>precise</strong> or <strong>powerful</strong>. <strong>Precise</strong> means that after a hit location die is chosen for a successful roll, you can adjust that die up or down by 1. <strong>Powerful</strong> means that after a damage die is chosen for a successful roll, you can adjust that die up by 1. Before your initial roll for an action you must declare either <strong>precise</strong> or <strong>powerful</strong>, not both, but can still use <strong>good</strong> to reroll. You cannot adjust above 9 or below 0.</p>
+</div>
+<div class="paragraph">
+<p>Not all items have corresponding abilities for particular modifiers, this is intentional.</p>
+</div>
 <div class="sect3">
-<h4 id="_2_handed_melee">2 handed melee</h4>
+<h4 id="_shield_2">Shield</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Good</strong> Defend.</p>
+</li>
+<li>
+<p>Can use your action to Defend another character.</p>
+</li>
+<li>
+<p>Can Attack using a shield.</p>
+</li>
+<li>
+<p>Can declare All-Out Defend after initiative but before any actions in a turn. During that turn you may Defend all attacks against you, but those rolls are not <strong>good</strong> and cannot be critical. During that turn you cannot take any other actions, and cannot defend other characters.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_first_aid_3">First Aid</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Good</strong> First Aid.</p>
+</li>
+<li>
+<p>Before rolling for First Aid, you can instead choose to automatically succeed and erase only 1 \ mark, replacing the rest with X.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_2h_melee">2H Melee</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Good</strong> 2H melee Attack.</p>
+</li>
+<li>
+<p><strong>Good</strong> 2H melee Intercept and Counterattack.</p>
+</li>
+<li>
+<p><strong>Powerful</strong> 2H melee Attack.</p>
+</li>
+<li>
+<p><strong>Precise</strong> 2H melee Attack.</p>
+</li>
+<li>
+<p>On a critical success, in addition to one of the standard effects, you can destroy 1 slot worth of items on your target.</p>
+</li>
+<li>
+<p>Cannot be Counterattacked.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_1h_melee">1H Melee</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Good</strong> 1H melee Attack.</p>
+</li>
+<li>
+<p><strong>Good</strong> 1H melee Intercept and Counterattack.</p>
+</li>
+<li>
+<p><strong>Precise</strong> 1H melee Attack.</p>
+</li>
+<li>
+<p>On a critical success, instead of gaining another action, you can force your target to lose their next action.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_2h_ranged">2H Ranged</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Good</strong> 2H ranged Attack.</p>
+</li>
+<li>
+<p><strong>Good</strong> 2H ranged Intercept.</p>
+</li>
+<li>
+<p><strong>Powerful</strong> 2H ranged Attack.</p>
+</li>
+<li>
+<p><strong>Precise</strong> 2H ranged Attack.</p>
+</li>
+<li>
+<p>Line of sight for 2H ranged Attack is prevented by 3 or more cover marks, not 2.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_1h_ranged">1H Ranged</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Good</strong> 1H ranged Attack.</p>
+</li>
+<li>
+<p><strong>Precise</strong> 1H ranged Attack.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_area_of_effect_aoe">Area of Effect (AoE)</h4>
 
 </div>
 </div>
