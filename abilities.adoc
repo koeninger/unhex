@@ -10,7 +10,7 @@ Choose a non-combat related activity for which you're *good* at die rolls. It's 
 
 Combat abilities are more specific. Each bullet point below is a separate ability. Many are specific to using particular items, e.g. being *good* at 2H melee is different from being *good* at 1H melee. Some abilities have explicit dependencies on another ability, but otherwise you can choose them in any order during advancement.
 
-In addition to *good*, combat abilities may grant the die roll modifiers *precise* or *powerful*. *Precise* means that after a hit location die is chosen for a successful roll, you can adjust that die up or down by 1. *Powerful* means that after a damage die is chosen for a successful roll, you can adjust that die up by 1. Before your initial roll for an action you must declare either *precise* or *powerful*, not both, but can still use *good* to reroll. You cannot adjust above 9 or below 0.
+In addition to *good*, combat abilities may grant the die roll modifiers *precise* or *powerful*. *Precise* means that after a hit location die is chosen for a successful roll, you can adjust that die up or down by 1. *Powerful* means that after a damage die is chosen for a successful roll, you can adjust that die up by 1. You cannot adjust above 9 or below 0. You can use only one of *good*, *precise*, or *powerful* for a given roll, after seeing the initial result.
 
 Not all items have corresponding abilities for particular modifiers, this is intentional.
 
