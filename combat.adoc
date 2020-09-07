@@ -38,9 +38,7 @@ When checking for cover along multiple connections, if at least one of the short
 A character in the bar would have cover against a shot from the DJ booth.
 ****
 
-Only cover marks shown on the map can provide cover, not intervening characters.
-
-Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, nor to ranged attacks within the same area.
+Only cover marks shown on the map can provide cover, not intervening characters. Cover applies only to attacks made by characters from other areas. This means it does not apply to melee attacks, nor to ranged attacks within the same area.
 
 === Range
 To make an attack you must be within range of your target. Melee attacks have a range of zero.  Items or abilities that can be used to make ranged attacks will define their usable range.
@@ -97,7 +95,7 @@ Several rounds into combat, the PCs have been beat up a bit, so their highest le
 
 There are usually two sides to combat, one team of PCs vs one team of NPCs. If for some reason there are more teams, it's a single multi-way opposed roll between the highest level character from each team, highest roll decides the order all teams act in.
 
-A critical success on initiative is an extra action for the rolling character, a critical failure is a loss of an action. If the NPCs have been wounded in prior rounds and roll a critical failure for initiative, the GM should have them retreat or surrender as appropriate.
+A critical success on initiative gains an extra action for the rolling character, a critical failure loses them an action. If the NPCs have been wounded in prior rounds and roll a critical failure for initiative, the GM should have them retreat or surrender as appropriate.
 
 If there's a tie for initiative (e.g. both sides fail), initiative stays with the team that had it prior round. If it's the first round the tie goes to the PCs. Similarly, if the order dice are rolled in is important (because one side is *good* at initiative and wants to see what number they're trying to beat), it's decided by who had the initiative prior round, or the PCs for first round.
 
@@ -151,7 +149,7 @@ In general, you must spend one action per attack you defend against.
 
 === Intercept
 
-In reaction to movement within your line of sight and range, you may use one action to <<Attack>> the moving character. Cover from either area does not apply. Use the smaller of the two ranges. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on. If the effect of your attack forces them to stop moving, you decide which of the two areas they end up in.
+In reaction to movement within your line of sight and range, you may use one action to <<Attack>> the moving character. You can draw line of sight based on either area. Use the smaller of the two ranges. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on. Cover from either area does not apply. If the effect of your attack forces them to stop moving, you decide which of the two areas they end up in.
 
 ****
 The range from the entrance to a character moving between the catwalk and dance floor is one.

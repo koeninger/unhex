@@ -2,7 +2,7 @@
 = Intro
 
 == Why this game?
-This is a tactical tabletop roleplaying game that doesn't depend on hex or square grid maps for interesting positional decisions. The rules should fit in your head.  Actions are resolved with a single roll to determine success, including damage and hit location. You only have a <<level.adoc#level,single target number>> to keep track of, and no modifiers.
+This is a tactical tabletop roleplaying game that doesn't depend on hex or square grid maps for interesting positional decisions. Actions are resolved with a single roll to determine success, including damage and hit location. You only have a <<level.adoc#level,single target number>> to keep track of.
 
 == Materials
 

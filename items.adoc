@@ -46,13 +46,13 @@ A 1H melee weapon requires one hand.
 
 ==== Ammo
 
-Taking an action with a ranged weapon requires that you have at least one slot worth of ammo. On a critical failure for a ranged attack, in addition to losing your next action, destroy one slot of ammo. Reloading does not otherwise take an action. Players can decide that they are using ammo that is compatible among their weapons, but availability.
+Taking an action with a ranged weapon requires that you have at least one slot worth of ammo. On a critical failure for a ranged attack, in addition to losing your next action, destroy one slot of ammo. Reloading does not otherwise take an action. Players can decide that they are using ammo that is compatible among their weapons, but availability and compatibility of other ammo found outside of recovery is up to the GM.
 
 ==== 2 Handed (2H) ranged weapons
 
 Example: longbow, rifle
 
-A 2H ranged weapon requires both hands, and has a range of 1 or more, but not 0. The assumption is most combat maps take place within maximum range, exceptions are up to the GM.
+A 2H ranged weapon requires both hands, and has a range of 1 or more, but not 0. The assumption is most combat takes place within maximum range, exceptions are up to the GM.
 
 ==== 1 handed (1H) ranged weapon
 

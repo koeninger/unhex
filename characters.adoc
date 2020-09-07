@@ -8,7 +8,7 @@ Decide on a concept, a name, and a description, then fill in your character shee
 
 Your level is your basic percentage chance of success when <<dice.adoc#dice,rolling dice>>.  Your current and *max* level start at 50, and are tracked separately on your character sheet.  The word 'level' by itself always refers to current level unless prefixed with *max*.
 
-Your level can decrease when you're <<combat.adoc#_damage, damaged>> in combat and increase when you <<combat.adoc#_recovery, recover>>. It cannot increase higher than your *max* level. If it reaches zero, you're <<combat.adoc#_unconsciousness, unconscious>>.
+Your level can decrease when you're <<combat.adoc#_damage, damaged>> in combat and increase when you <<combat.adoc#_recovery, recover>>. It cannot increase higher than your *max* level.
 
 == Abilities
 
@@ -22,7 +22,7 @@ Use the top slot(s) on the sheet for the items you typically want in your hands 
 
 == Advancement
 
-All players' *max* level increases by 1 at the end of a session if they achieved their goal for that session.  Near the beginning of a session the players should agree on a single goal collectively.  The GM may set the scene, and may warn players when a goal isn't likely to be achieveable by the end of a session, but may not choose a goal for the players.
+All players' *max* level increases by 1 at the end of a session if they achieved their goal for that session.  Near the beginning of a session the players should agree on a single goal collectively.  The GM can set the scene, and can warn players when a goal isn't likely to be achieveable by the end of a session, but cannot choose a goal for the players.
 
 When your level increases to a number ending in 5 you get another slot for items. At level 55 you can have up to 6 combat related items, at level 65 up to 7, etc.
 

@@ -12,7 +12,7 @@ In some situations, how successful you are is more interesting than just a binar
 In some situations, there may be two separate degrees of success. In that case, you pick which die is used for which. Each die indicates a degree of success from zero to nine.  Higher is usually better. For instance, in <<combat.adoc#combat,combat>> after a successful attack you pick one die for damage, and the other for hit location.
 
 == Critical rolls
-If you roll doubles, i.e. the tens die and ones die match, it's a critical, meaning the effect of success or failure is magnified. Rolling exactly equal to your level is also a critical success. Rolling one hundred is critical failure.
+If you roll doubles, i.e. the tens digit and ones digit match, it's a critical, meaning the effect of success or failure is magnified. Rolling exactly equal to your level is also a critical success. Rolling one hundred is critical failure.
 
 If you roll a critical success, choose one of the following options, _not both_:
 
