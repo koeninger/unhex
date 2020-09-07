@@ -8,7 +8,7 @@ The effect of non-combat related items is up to the GM.
 
 == Combat items
 
-Unless otherwise specified, a combat related item takes up one slot on on your character sheet, and can be used without needing a related ability. Items will specify the circumstances in which they are destroyed, if any. Erase or otherwise note destroyed items.
+Unless otherwise specified, a combat related item takes up one slot on on your character sheet, and can be used without needing a related ability. Taking an action with an item requires that it be in one or both hands as specified. Holding a separate weapon in each hand does not allow multiple actions. Items will specify the circumstances in which they are destroyed, if any. Erase or otherwise note destroyed items.
 
 === Armor
 
@@ -20,7 +20,7 @@ Armor takes up one slot per hit location. When you are damaged by an attack and 
 
 Example: viking shield, riot shield, magic bracer
 
-Holding a shield requires one hand. If you are hit by an attack while holding a shield you get to choose which die is used for damage and which is used for location, instead of your attacker. A shield is not cover and has no effect on line of sight. Shields are effective against ranged and melee attacks.
+A shield requires one hand. If you are hit by an attack while holding a shield you get to choose which die is used for damage and which is used for location, instead of your attacker. A shield is not cover and has no effect on line of sight. Shields are effective against ranged and melee attacks.
 
 === First Aid
 
@@ -34,37 +34,37 @@ First aid items take up one slot per use. See the <<combat.adoc#first_aid, comba
 
 Example: greatsword, pickaxe, laser staff
 
-Attacking with a 2H melee weapon requires both hands. When marking wounds caused by a 2H melee weapon, use X instead of \.
+A 2H melee weapon requires both hands. When marking wounds caused by a 2H melee weapon, use X instead of \.
 
 ==== 1 handed (1H) melee weapons
 
 Example: sword, knife, brass knuckles
 
-Attacking with a 1H melee weapon requires one hand.
+A 1H melee weapon requires one hand.
 
 === Ranged weapons
 
 ==== Ammo
 
-Attacking with a ranged weapon requires that you have at least one slot worth of ammo. On a critical failure for a ranged attack, in addition to losing your next action, destroy one slot of ammo. Reloading does not otherwise take an action. Compatibility of ammo among different ranged weapons is up to the GM.
+Taking an action with a ranged weapon requires that you have at least one slot worth of ammo. On a critical failure for a ranged attack, in addition to losing your next action, destroy one slot of ammo. Reloading does not otherwise take an action. Players can decide that they are using ammo that is compatible among their weapons, but availability.
 
 ==== 2 Handed (2H) ranged weapons
 
 Example: longbow, rifle
 
-Attacking with a 2H ranged weapon requires both hands, and has a range of 1 or more, but not 0. The assumption is most combat maps take place within maximum range, exceptions are up to the GM.
+A 2H ranged weapon requires both hands, and has a range of 1 or more, but not 0. The assumption is most combat maps take place within maximum range, exceptions are up to the GM.
 
 ==== 1 handed (1H) ranged weapon
 
 Example: sling, pistol
 
-Attacking with a 1H ranged weapon requires one hand, and has a range of 0 or 1. You cannot use a shield and a 1H ranged weapon at the same time.
+A 1H ranged weapon requires one hand, and has a range of 0 or 1. You cannot use a shield and a 1H ranged weapon at the same time.
 
 === Area of Effect (AoE) weapons
 
 Example: magic fireball scroll, grenade
 
-AoE weapons take one slot per attack and require both hands. They have a range of 0 or 1. Acquiring or using an AoE weapon requires a corresponding <<abililities.adoc#AoE,ability>>, see those rules for details.
+AoE weapons take one slot per use and require both hands. They have a range of 0 or 1. Acquiring or using an AoE weapon requires a corresponding <<abililities.adoc#AoE,ability>>, see those rules for details.
 
 === Less-lethal
 

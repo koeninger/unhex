@@ -161,7 +161,7 @@ The range from the entrance to a character moving between the catwalk and dance 
 
 When you are damaged by an attack, reduce your level by the amount of damage and mark the corresponding number of boxes on the hit location section of your character sheet.
 
-Mark damage in empty ☐ boxes, normally using a \ slash, indicating a wound that may be treatable by <<combat.adoc#first_aid,first aid>>. A mark of X is used to indicate a wound that cannot be treated by first aid, only by <<resting.adoc#resting, resting>>. Marking by completely filling a box ■ is used to indicate a permanent wound that cannot be treated. A box is considered marked if it has any type of mark \, X, or ■.
+Mark damage in empty ☐ boxes, normally using a \ slash, indicating a wound that may be treatable by <<combat.adoc#first_aid,first aid>>. A mark of X is used to indicate a wound that cannot be treated by first aid, only by <<recovery.adoc#recovery, recovery>>. Marking by completely filling a box ■ is used to indicate a permanent wound that cannot be treated. A box is considered marked if it has any type of mark \, X, or ■.
 
 === Hit location
 

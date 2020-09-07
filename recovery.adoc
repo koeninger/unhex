@@ -1,0 +1,7 @@
+[#Recovery]
+
+= Recovery
+
+Recovery allows you to restore your level to max, erase any \ or X wounds, and acquire or replace any items up to your maximum slots.
+
+The downside of recovery is that time passes, and any forces opposing you are not idle. The GM will advance the story to reflect this.
