@@ -74,7 +74,7 @@ You choose an area at a range of 1 and roll a 42, a success. You choose 4 for da
 
 ==== Continuous
 
-Make a single attack roll. On failure, nothing happens. On a critical failure, you take the _sum_ of the dice in damage, e.g. 12 points for a roll of 66. On success, choose one die for damage, and the other die for number of turns the effect lasts. While in effect, anyone in that area who starts an action other than Move takes that amount of damage immediately.
+Make a single attack roll. On failure, nothing happens. On a critical failure, you take the _sum_ of the dice in damage, e.g. 12 points for a roll of 66. On success, choose one die for damage, and the other die for number of turns the effect lasts. While in effect, anyone in that area who starts an action other than Move takes that amount of damage immediately. If there are multiple continuous effects on an area simultaneously, use only the most damaging one.
 
 ==== Cover
 
@@ -88,20 +88,18 @@ Make a single attack roll. On failure, nothing happens. On a critical failure, y
 
 * *Good* at initiative rolls. If someone else on your team has higher level, they can choose to let you roll initiative.
 * Once per combat you can use an action to attempt to rally your team. Make a roll, on a success anyone on your team (including you) can increase their level to match the roll. They can't exceed their *max* level. On failure you lost your attempt for this combat. On a critical failure decrease everyone on your team's level by the number shown on one die. You can use this ability at the end of combat if you haven't attempted it yet.
-* You can use your action to direct someone else on your team to take any action they are able to. If they agree, they can do so without using an action of their own. Someone cannot benefit from this ability more than once per turn, nor if they used this ability this turn.
+* You can use your action to direct someone else on your team to take any action they are able to. If they agree, they can do so without using an action of their own. If they disagree, you can use your action for something else. Someone cannot benefit from this ability more than once per turn, nor if they used this ability this turn.
 * When you succeed at an initiative roll (even if you didn't win initiative), gain an additional action that can be used only to direct others. Requires the prior ability.
 
 
 === Stealth
 
-* While in an area without enemies, you gain the effect of an additional line of cover between you and any other area. This can affect line of sight to you. You lose this effect as soon as you start an Attack or Intercept action. You regain it after a Move action. Your area can still be targeted by AoEs and you can suffer from their effects.
-* An unsuccessful Attack or Intercept does not lose stealth. Requires the prior ability.
+* While in an area without enemies, you gain the effect of an additional line of cover between you and any other area. If your area didn't already have cover, you gain cover. If your area already had cover, when drawing line of sight to you count it as 2 lines of cover. You lose this effect as soon as you start an Attack or Intercept action. You regain it after a Move action. Your area can still be targeted by AoEs and you can suffer from their effects.
 
 === Unarmed Combat
 
-* Make Attack, Counterattack, or Intercept actions using a foot or empty hand. This is a prerequisite for any of the following abilities.
-* *Good* at unarmed Attack.
-* *Good* at unarmed Counterattack and Intercept.
-* *Precise* at unarmed Attack.
-* On a successful unarmed Attack, instead of damage you may grapple a single opponent using two empty hands. While grappled, your opponent may not Move, or use weapons or items. They can free themselves by spending an action and winning an opposed roll. You can Move dragging them by winning an opposed roll, freeing them if they win. You (and your opponent if they have Unarmed Combat ability) may Attack or Counterattack, but only each other. Neither of you can Defend or Intercept.
-* *Good* at grappling opposed rolls. Requires the prior ability.
+* Make Attack, Counterattack, or Intercept actions using an empty hand or two legs. This is a prerequisite for any of the following abilities.
+* *Good* unarmed Attack.
+* *Good* unarmed Counterattack and Intercept.
+* *Precise* unarmed Attack.
+* When you successfully Intercept with two empty hands, in addition to damage you can stop the target's movement. You decide which of the two areas they end up in.

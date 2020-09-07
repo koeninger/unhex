@@ -151,7 +151,7 @@ In general, you must spend one action per attack you defend against.
 
 === Intercept
 
-In reaction to movement within your line of sight and range, you may use one action to attack the moving character. Cover from either area does not apply. Use the smaller of the two ranges. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on. If the effect of your attack forces them to stop moving, you decide which area they end up in.
+In reaction to movement within your line of sight and range, you may use one action to attack the moving character. Cover from either area does not apply. Use the smaller of the two ranges. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on. If the effect of your attack forces them to stop moving, you decide which of the two areas they end up in.
 
 ****
 The range from the entrance to a character moving between the catwalk and dance floor is one.
@@ -186,7 +186,7 @@ When all of the boxes in a location are marked, apply the appropriate penalty fo
   .. Head: <<combat.adoc#unconsciousness, unconsciousness>>
   .. Arm: Drop any item held in that hand. You can't use that hand.
   .. Torso: <<combat.adoc#unconsciousness, unconsciousness>>
-  .. Leg: Immediately stop moving. You cannot move without using 2 empty hands.
+  .. Leg: Immediately stop moving. You can't use that leg. You cannot move without using 2 empty hands.
   .. Both Legs: Immediately stop moving. You cannot move.
 
 If there's additional damage to that location, either from this attack or a future attack, apply it to the torso.
