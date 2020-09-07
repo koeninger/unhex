@@ -505,7 +505,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Your level is your basic percentage chance of success when <a href="#dice">rolling dice</a>.  Your current and <strong>max</strong> level start at 50, and are tracked separately on your character sheet.  The word 'level' by itself always refers to current level unless prefixed with <strong>max</strong>.</p>
 </div>
 <div class="paragraph">
-<p>Your level can decrease when you&#8217;re <a href="#damage">hurt in combat</a> and increase when you <a href="resting.html#resting">rest</a>. It cannot increase higher than your <strong>max</strong> level. If it reaches zero, you&#8217;re <a href="#unconsciousness">unconscious</a>.</p>
+<p>Your level can decrease when you&#8217;re <a href="#_damage">damaged</a> in combat and increase when you <a href="#_recovery">recover</a>. It cannot increase higher than your <strong>max</strong> level. If it reaches zero, you&#8217;re <a href="#_unconsciousness">unconscious</a>.</p>
 </div>
 </div>
 <div class="sect2">
@@ -851,7 +851,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="_attack">Attack</h4>
 <div class="paragraph">
-<p>Attacking requires that you are in <a href="#range">range</a>, have line of sight, and already have in hand any item you&#8217;re using to attack. Make a roll. On a success, you choose one die for the amount of <a href="#damage">damage</a> your target takes and the other die for <a href="#hit_location">hit location</a>.  If the target benefits from <a href="#cover">cover</a>, they get to choose instead.</p>
+<p>Attacking requires that you are in <a href="#_range">Range</a>, have <a href="#_line_of_sight">Line of Sight</a>, and already have in hand any item you&#8217;re using to attack. Make a roll. On a success, you choose one die for the amount of <a href="#_damage">Damage</a> your target takes and the other die for <a href="#_hit_location">Hit Location</a>.  If the target benefits from <a href="#_cover">Cover</a>, they get to choose instead.</p>
 </div>
 </div>
 <div class="sect3">
@@ -869,7 +869,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="_counterattack">Counterattack</h4>
 <div class="paragraph">
-<p>In reaction to an attack against you from a character <em>in your area</em>, you may use one action to counterattack. This is not an opposed roll, you each make separate attack rolls and apply any effects simultaneously.</p>
+<p>In reaction to an attack against you from a character <em>in your area</em>, you may use one action to counterattack. This is not an opposed roll, you each make separate rolls as you would for <a href="#_attack">Attack</a> and apply any effects simultaneously.</p>
 </div>
 <div class="paragraph">
 <p>You cannot counterattack against an attack targeting someone other than you. You can counterattack <em>using</em> a ranged weapon only if it is effective at range 0. You can counterattack <em>against</em> a ranged attack only if it is from a character in your area, i.e. range 0.</p>
@@ -887,7 +887,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="_intercept">Intercept</h4>
 <div class="paragraph">
-<p>In reaction to movement within your line of sight and range, you may use one action to attack the moving character. Cover from either area does not apply. Use the smaller of the two ranges. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on. If the effect of your attack forces them to stop moving, you decide which of the two areas they end up in.</p>
+<p>In reaction to movement within your line of sight and range, you may use one action to <a href="#_attack">Attack</a> the moving character. Cover from either area does not apply. Use the smaller of the two ranges. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on. If the effect of your attack forces them to stop moving, you decide which of the two areas they end up in.</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -904,10 +904,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>When you are damaged by an attack, reduce your level by the amount of damage and mark the corresponding number of boxes on the hit location section of your character sheet.</p>
 </div>
 <div class="paragraph">
-<p>Mark damage in empty ☐ boxes, normally using a \ slash, indicating a wound that may be treatable by <a href="#first_aid">first aid</a>. A mark of X is used to indicate a wound that cannot be treated by first aid, only by <a href="recovery.html#recovery">recovery</a>. Marking by completely filling a box ■ is used to indicate a permanent wound that cannot be treated. A box is considered marked if it has any type of mark \, X, or ■.</p>
+<p>Mark damage in empty ☐ boxes, normally using a \ slash, indicating a wound that may be treatable by <a href="#_first_aid_2">First Aid</a>. A mark of X is used to indicate a wound that cannot be treated by first aid, only by <a href="#_recovery">Recovery</a>. Marking by completely filling a box ■ is used to indicate a permanent wound that cannot be treated. A box is considered marked if it has any type of mark \, X, or ■.</p>
 </div>
 <div class="sect3">
-<h4 id="_hit_location">Hit location</h4>
+<h4 id="_hit_location">Hit Location</h4>
 <div class="paragraph">
 <p>The numbers on the die used for hit location correspond to six locations on the body, the higher the number the closer to the head:</p>
 </div>
@@ -968,13 +968,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Head: <a href="#unconsciousness">unconsciousness</a></p>
+<p>Head: <a href="#_unconsciousness">Unconsciousness</a></p>
 </li>
 <li>
 <p>Arm: Drop any item held in that hand. You can&#8217;t use that hand.</p>
 </li>
 <li>
-<p>Torso: <a href="#unconsciousness">unconsciousness</a></p>
+<p>Torso: <a href="#_unconsciousness">Unconsciousness</a></p>
 </li>
 <li>
 <p>Leg: Immediately stop moving. You can&#8217;t use that leg. You cannot move without using 2 empty hands.</p>
@@ -998,7 +998,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="_first_aid">First aid</h4>
 <div class="paragraph">
-<p>First aid has a range of zero to the character being treated, which can be yourself. First aid requires an appropriate <a href="#first_aid">item</a> in your hand. Spend an action, destroy the item, and roll.</p>
+<p>First aid has a range of zero to the character being treated, which can be yourself. First aid requires an appropriate <a href="#_first_aid">first aid item</a> in your hand. Spend an action, destroy the item, and roll.</p>
 </div>
 <div class="paragraph">
 <p>On a success, choose one die for the total number of boxes, and the other die for the number of <em>additional</em> locations beyond one. Erase \ marks from the chosen number of boxes, distributed among at most that many locations. Do not increase level. Replace any remaining \ marks with an X.</p>
@@ -1022,6 +1022,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Your ally has 1 \ mark and 1 X mark on their head and 3 X marks on their right arm.  You critically fail at first aid with a roll of 66. You replace the X marks on their arm and head with ■ permanent wounds, for a total of 4. Even though that&#8217;s less than the 6 on the die, there are no more X marks to replace. You then replace the \ mark on their head with an X.</p>
 </div>
 </div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_recovery">Recovery</h4>
+<div class="paragraph">
+<p>Recovery allows you to restore your level to max, erase any \ or X wounds, and acquire or replace any items up to your maximum slots. The downside of recovery is that time passes, and any forces opposing you are not idle. The GM will advance the story to reflect this.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1083,7 +1089,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Example: healing potion, first aid kit, nanomachines</p>
 </div>
 <div class="paragraph">
-<p>First aid items take up one slot per use. See the <a href="#first_aid">combat rules</a> for first aid.</p>
+<p>First aid items take up one slot per use. See the <a href="#_first_aid">combat rules</a> for first aid.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1167,13 +1173,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_combat_abilities">Combat abilities</h3>
 <div class="paragraph">
-<p>Combat abilities are more specific. Each bullet point below is a separate ability. Many are specific to using particular items, e.g. being <strong>good</strong> at 2H melee is different from being <strong>good</strong> at 1H melee. Some abilities have explicit dependencies on another ability, but otherwise you can choose them in any order during advancement.</p>
+<p>Combat abilities are more specific. Each bullet point below is a separate ability, e.g. <strong>good</strong> at initiative is separate from being able to rally your team, even though both are under the Leader section. Many abilities are specific to using particular items, e.g. being <strong>good</strong> at 2H melee is different from being <strong>good</strong> at 1H melee. Not all items have corresponding abilities for particular modifiers, this is intentional. Some abilities have explicit dependencies on another ability, but otherwise you can choose them in any order during advancement.</p>
 </div>
 <div class="paragraph">
-<p>In addition to <strong>good</strong>, combat abilities may grant the die roll modifiers <strong>precise</strong> or <strong>powerful</strong>. <strong>Precise</strong> means that after a hit location die is chosen for a successful roll, you can adjust that die up or down by 1. <strong>Powerful</strong> means that after a damage die is chosen for a successful roll, you can adjust that die up by 1. You cannot adjust above 9 or below 0. You can use only one of <strong>good</strong>, <strong>precise</strong>, or <strong>powerful</strong> for a given roll, after seeing the initial result.</p>
-</div>
-<div class="paragraph">
-<p>Not all items have corresponding abilities for particular modifiers, this is intentional.</p>
+<p>In addition to <strong>good</strong>, combat abilities may grant the die roll modifiers <strong>precise</strong> or <strong>powerful</strong>. <strong>Precise</strong> means that after a hit location die is chosen for a successful roll, you can adjust that die up or down by 1. <strong>Powerful</strong> means that after a damage die is chosen for a successful roll, you can adjust that die up by 1. You cannot adjust above 9 or below 0. You can use only one of <strong>good</strong>, <strong>precise</strong>, or <strong>powerful</strong> for a given roll, after seeing the initial result. Note that unlike <strong>good</strong>, <strong>precise</strong> and <strong>powerful</strong> do not modify chance of success, only the effect of the success.</p>
 </div>
 <div class="sect3">
 <h4 id="_shield_2">Shield</h4>
@@ -1289,7 +1292,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect3">
 <h4 id="_area_of_effect_aoe">Area of Effect (AoE)</h4>
 <div class="paragraph">
-<p>AoE weapons come in different varieties, each requiring a corresponding ability and one item slot per use. They all use an Attack action, not Counterattack or Intercept, against an area at a range of 0 or 1. Neither cover nor shields apply to AoEs. AoEs cannot be Counterattacked. Wounds caused by AoEs can be spread among locations of the damaged character&#8217;s choice, and can be prevented by armor as normal. Some AoE effects last for a specified number of full turns: 0 ends at the end of the current turn, 1 at the end of the next turn, and so on.</p>
+<p>AoE weapons come in different varieties, each requiring a corresponding ability and an item that is destroyed per attempted use. If you have multiple AoE abilities you must specify in advance which items are for which ability. They all use an Attack action, not Counterattack or Intercept, against an area at a range of 0 or 1. Failed AoE rolls have no effect. On a critical failure you take the <em>sum</em> of the dice in damage, reading 100 as 20, 99 as 18, etc.</p>
+</div>
+<div class="paragraph">
+<p>AoEs cannot be Counterattacked. Neither cover nor shields apply to AoEs. Wounds caused by AoEs can be spread among locations of the damaged character&#8217;s choice, and can be prevented by armor as normal. Some AoE effects last for a specified number of full turns: 0 ends at the end of the current turn, 1 at the end of the next turn, and so on.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1310,12 +1316,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect4">
 <h5 id="_blast">Blast</h5>
 <div class="paragraph">
-<p>Make a single attack roll. On failure, nothing happens. On a critical failure, you take the <em>sum</em> of the dice in damage, e.g. 12 points for a roll of 66. On success, choose one die for damage, and the other die for number of <em>additional</em> targets in that same area. You choose targets, but must include allies if there are no other remaining targets. If a target spends an action on a successful Defend that beats your roll they take no damage. Otherwise each target takes that amount of damage.</p>
+<p>Make a single attack roll. On success, choose one die for damage, and the other die for number of <em>additional</em> targets in that same area. You choose targets, but must include allies if there are no other remaining targets. If a target spends an action on a successful Defend that beats your roll they take no damage. Otherwise each target takes that amount of damage.</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>You choose an area at a range of 1 and roll a 42, a success. You choose 4 for damage and 2 for additional targets. There are three enemies and one ally in the area, so you choose the three enemies. One of the enemies successfully Defends with a 50 and takes no damage. The other enemies don&#8217;t want to spend an action on Defend, so they each take 4 damage. One decides to take all 4 in the torso and destroys the slot of armor there to eliminate the damage. The other decides to take 2 points in each leg.</p>
+<p>You choose an area at a range of 1, mark your AoE item as destroyed, and roll a 42, a success. You choose 4 for damage and 2 for additional targets. There are three enemies and one ally in the area, so you choose the three enemies. One of the enemies successfully Defends with a 50 and takes no damage. The other enemies don&#8217;t want to spend an action on Defend, so they each take 4 damage. One decides to take all 4 in the torso and destroys the slot of armor there to eliminate the damage. The other decides to take 2 points in each leg.</p>
 </div>
 </div>
 </div>
@@ -1323,19 +1329,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect4">
 <h5 id="_continuous">Continuous</h5>
 <div class="paragraph">
-<p>Make a single attack roll. On failure, nothing happens. On a critical failure, you take the <em>sum</em> of the dice in damage, e.g. 12 points for a roll of 66. On success, choose one die for damage, and the other die for number of turns the effect lasts. While in effect, anyone in that area who starts an action other than Move takes that amount of damage immediately. If there are multiple continuous effects on an area simultaneously, use only the most damaging one.</p>
+<p>Make a single attack roll. On success, choose one die for damage, and the other die for the number of turns the effect lasts. While in effect, anyone in that area who starts an action other than Move takes that amount of damage immediately. If there are multiple continuous effects on an area simultaneously, use only the most damaging one.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_cover_2">Cover</h5>
 <div class="paragraph">
-<p>Make a single attack roll. On failure, nothing happens. On a critical failure, you lose your next action. On success, choose one die for the number of turns the effect lasts. While in effect, that area has cover in all directions.</p>
+<p>Make a single attack roll. On success, choose one die for the number of turns the effect lasts. While in effect, that area has cover in all directions.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_demolish">Demolish</h5>
 <div class="paragraph">
-<p>Make a single attack roll. On failure, nothing happens. On a critical failure, you lose your next action. On success, all cover in that area is destroyed, regardless of whether it was created by terrain or AoE.</p>
+<p>Make a single attack roll. On success, all cover in that area is destroyed, regardless of whether it was created by terrain or ability.</p>
 </div>
 </div>
 </div>
@@ -1347,13 +1353,23 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><strong>Good</strong> at initiative rolls. If someone else on your team has higher level, they can choose to let you roll initiative.</p>
 </li>
 <li>
-<p>Once per combat you can use an action to attempt to rally your team. Make a roll, on a success anyone on your team (including you) can increase their level to match the roll. They can&#8217;t exceed their <strong>max</strong> level. On failure you lost your attempt for this combat. On a critical failure decrease everyone on your team&#8217;s level by the number shown on one die. You can use this ability at the end of combat if you haven&#8217;t attempted it yet.</p>
+<p>You can use an action to attempt to rally your team. Make a roll, on a success anyone on your team (including you) can increase their level to match the roll. They can&#8217;t exceed their <strong>max</strong> level. You can attempt this only once per combat, whether you succeed or fail. You can use this ability at the end of combat if you haven&#8217;t attempted it yet.</p>
 </li>
 <li>
-<p>You can use your action to direct someone else on your team to take any action they are able to. If they agree, they can do so without using an action of their own. If they disagree, you can use your action for something else. Someone cannot benefit from this ability more than once per turn, nor if they used this ability this turn.</p>
+<p>You can use an action to direct someone else on your team to take any action they are able to. If they agree, they can do so without using an action of their own. If they disagree, you can use your action for something else. Someone cannot benefit from this ability more than once per turn, nor if they used this ability this turn.</p>
 </li>
 <li>
-<p>When you succeed at an initiative roll (even if you didn&#8217;t win initiative), gain an additional action that can be used only to direct others. Requires the prior ability.</p>
+<p>When you succeed at an initiative roll, even if you didn&#8217;t win, gain an additional action that can be used only to direct others. Requires the prior ability.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_speed">Speed</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>You can roll for Move. On a success you can move twice, each subject to Intercept. On a failure you stay in your current area, but it is still treated as a move attempt for Intercept.</p>
 </li>
 </ul>
 </div>
@@ -1363,7 +1379,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>While in an area without enemies, you gain the effect of an additional line of cover between you and any other area. If your area didn&#8217;t already have cover, you gain cover. If your area already had cover, when drawing line of sight to you count it as 2 lines of cover. You lose this effect as soon as you start an Attack or Intercept action. You regain it after a Move action. Your area can still be targeted by AoEs and you can suffer from their effects.</p>
+<p>While in an area without enemies, you gain an additional cover mark between you and any other area. Besides providing cover, this also counts against line of sight, even if there was already cover in your area. You lose this effect as soon as you start an Attack or Intercept action. You regain it after a Move action. Your area can still be targeted by AoEs and you can suffer from their effects, including losing stealth due to Demolish.</p>
 </li>
 </ul>
 </div>

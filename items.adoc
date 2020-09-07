@@ -26,7 +26,7 @@ A shield requires one hand. If you are hit by an attack while holding a shield y
 
 Example: healing potion, first aid kit, nanomachines
 
-First aid items take up one slot per use. See the <<combat.adoc#first_aid, combat rules>> for first aid.
+First aid items take up one slot per use. See the <<combat.adoc#_first_aid, combat rules>> for first aid.
 
 === Melee weapons
 

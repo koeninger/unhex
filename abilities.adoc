@@ -8,11 +8,9 @@ Choose a non-combat related activity for which you're *good* at die rolls. It's 
 
 == Combat abilities
 
-Combat abilities are more specific. Each bullet point below is a separate ability. Many are specific to using particular items, e.g. being *good* at 2H melee is different from being *good* at 1H melee. Some abilities have explicit dependencies on another ability, but otherwise you can choose them in any order during advancement.
+Combat abilities are more specific. Each bullet point below is a separate ability, e.g. *good* at initiative is separate from being able to rally your team, even though both are under the Leader section. Many abilities are specific to using particular items, e.g. being *good* at 2H melee is different from being *good* at 1H melee. Not all items have corresponding abilities for particular modifiers, this is intentional. Some abilities have explicit dependencies on another ability, but otherwise you can choose them in any order during advancement.
 
-In addition to *good*, combat abilities may grant the die roll modifiers *precise* or *powerful*. *Precise* means that after a hit location die is chosen for a successful roll, you can adjust that die up or down by 1. *Powerful* means that after a damage die is chosen for a successful roll, you can adjust that die up by 1. You cannot adjust above 9 or below 0. You can use only one of *good*, *precise*, or *powerful* for a given roll, after seeing the initial result.
-
-Not all items have corresponding abilities for particular modifiers, this is intentional.
+In addition to *good*, combat abilities may grant the die roll modifiers *precise* or *powerful*. *Precise* means that after a hit location die is chosen for a successful roll, you can adjust that die up or down by 1. *Powerful* means that after a damage die is chosen for a successful roll, you can adjust that die up by 1. You cannot adjust above 9 or below 0. You can use only one of *good*, *precise*, or *powerful* for a given roll, after seeing the initial result. Note that unlike *good*, *precise* and *powerful* do not modify chance of success, only the effect of the success.
 
 === Shield
 
@@ -57,7 +55,9 @@ Not all items have corresponding abilities for particular modifiers, this is int
 
 === Area of Effect (AoE)
 
-AoE weapons come in different varieties, each requiring a corresponding ability and one item slot per use. They all use an Attack action, not Counterattack or Intercept, against an area at a range of 0 or 1. Neither cover nor shields apply to AoEs. AoEs cannot be Counterattacked. Wounds caused by AoEs can be spread among locations of the damaged character's choice, and can be prevented by armor as normal. Some AoE effects last for a specified number of full turns: 0 ends at the end of the current turn, 1 at the end of the next turn, and so on.
+AoE weapons come in different varieties, each requiring a corresponding ability and an item that is destroyed per attempted use. If you have multiple AoE abilities you must specify in advance which items are for which ability. They all use an Attack action, not Counterattack or Intercept, against an area at a range of 0 or 1. Failed AoE rolls have no effect. On a critical failure you take the _sum_ of the dice in damage, reading 100 as 20, 99 as 18, etc.
+
+AoEs cannot be Counterattacked. Neither cover nor shields apply to AoEs. Wounds caused by AoEs can be spread among locations of the damaged character's choice, and can be prevented by armor as normal. Some AoE effects last for a specified number of full turns: 0 ends at the end of the current turn, 1 at the end of the next turn, and so on.
 
 * Blast
 * Continuous
@@ -66,35 +66,38 @@ AoE weapons come in different varieties, each requiring a corresponding ability 
 
 ==== Blast
 
-Make a single attack roll. On failure, nothing happens. On a critical failure, you take the _sum_ of the dice in damage, e.g. 12 points for a roll of 66. On success, choose one die for damage, and the other die for number of _additional_ targets in that same area. You choose targets, but must include allies if there are no other remaining targets. If a target spends an action on a successful Defend that beats your roll they take no damage. Otherwise each target takes that amount of damage.
+Make a single attack roll. On success, choose one die for damage, and the other die for number of _additional_ targets in that same area. You choose targets, but must include allies if there are no other remaining targets. If a target spends an action on a successful Defend that beats your roll they take no damage. Otherwise each target takes that amount of damage.
 
 ****
-You choose an area at a range of 1 and roll a 42, a success. You choose 4 for damage and 2 for additional targets. There are three enemies and one ally in the area, so you choose the three enemies. One of the enemies successfully Defends with a 50 and takes no damage. The other enemies don't want to spend an action on Defend, so they each take 4 damage. One decides to take all 4 in the torso and destroys the slot of armor there to eliminate the damage. The other decides to take 2 points in each leg.
+You choose an area at a range of 1, mark your AoE item as destroyed, and roll a 42, a success. You choose 4 for damage and 2 for additional targets. There are three enemies and one ally in the area, so you choose the three enemies. One of the enemies successfully Defends with a 50 and takes no damage. The other enemies don't want to spend an action on Defend, so they each take 4 damage. One decides to take all 4 in the torso and destroys the slot of armor there to eliminate the damage. The other decides to take 2 points in each leg.
 ****
 
 ==== Continuous
 
-Make a single attack roll. On failure, nothing happens. On a critical failure, you take the _sum_ of the dice in damage, e.g. 12 points for a roll of 66. On success, choose one die for damage, and the other die for number of turns the effect lasts. While in effect, anyone in that area who starts an action other than Move takes that amount of damage immediately. If there are multiple continuous effects on an area simultaneously, use only the most damaging one.
+Make a single attack roll. On success, choose one die for damage, and the other die for the number of turns the effect lasts. While in effect, anyone in that area who starts an action other than Move takes that amount of damage immediately. If there are multiple continuous effects on an area simultaneously, use only the most damaging one.
 
 ==== Cover
 
-Make a single attack roll. On failure, nothing happens. On a critical failure, you lose your next action. On success, choose one die for the number of turns the effect lasts. While in effect, that area has cover in all directions.
+Make a single attack roll. On success, choose one die for the number of turns the effect lasts. While in effect, that area has cover in all directions.
 
 ==== Demolish
 
-Make a single attack roll. On failure, nothing happens. On a critical failure, you lose your next action. On success, all cover in that area is destroyed, regardless of whether it was created by terrain or AoE.
+Make a single attack roll. On success, all cover in that area is destroyed, regardless of whether it was created by terrain or ability.
 
 === Leader
 
 * *Good* at initiative rolls. If someone else on your team has higher level, they can choose to let you roll initiative.
-* Once per combat you can use an action to attempt to rally your team. Make a roll, on a success anyone on your team (including you) can increase their level to match the roll. They can't exceed their *max* level. On failure you lost your attempt for this combat. On a critical failure decrease everyone on your team's level by the number shown on one die. You can use this ability at the end of combat if you haven't attempted it yet.
-* You can use your action to direct someone else on your team to take any action they are able to. If they agree, they can do so without using an action of their own. If they disagree, you can use your action for something else. Someone cannot benefit from this ability more than once per turn, nor if they used this ability this turn.
-* When you succeed at an initiative roll (even if you didn't win initiative), gain an additional action that can be used only to direct others. Requires the prior ability.
+* You can use an action to attempt to rally your team. Make a roll, on a success anyone on your team (including you) can increase their level to match the roll. They can't exceed their *max* level. You can attempt this only once per combat, whether you succeed or fail. You can use this ability at the end of combat if you haven't attempted it yet.
+* You can use an action to direct someone else on your team to take any action they are able to. If they agree, they can do so without using an action of their own. If they disagree, you can use your action for something else. Someone cannot benefit from this ability more than once per turn, nor if they used this ability this turn.
+* When you succeed at an initiative roll, even if you didn't win, gain an additional action that can be used only to direct others. Requires the prior ability.
 
+=== Speed
+
+* You can roll for Move. On a success you can move twice, each subject to Intercept. On a failure you stay in your current area, but it is still treated as a move attempt for Intercept.
 
 === Stealth
 
-* While in an area without enemies, you gain the effect of an additional line of cover between you and any other area. If your area didn't already have cover, you gain cover. If your area already had cover, when drawing line of sight to you count it as 2 lines of cover. You lose this effect as soon as you start an Attack or Intercept action. You regain it after a Move action. Your area can still be targeted by AoEs and you can suffer from their effects.
+* While in an area without enemies, you gain an additional cover mark between you and any other area. Besides providing cover, this also counts against line of sight, even if there was already cover in your area. You lose this effect as soon as you start an Attack or Intercept action. You regain it after a Move action. Your area can still be targeted by AoEs and you can suffer from their effects, including losing stealth due to Demolish.
 
 === Unarmed Combat
 

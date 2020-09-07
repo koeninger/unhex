@@ -8,7 +8,7 @@ Decide on a concept, a name, and a description, then fill in your character shee
 
 Your level is your basic percentage chance of success when <<dice.adoc#dice,rolling dice>>.  Your current and *max* level start at 50, and are tracked separately on your character sheet.  The word 'level' by itself always refers to current level unless prefixed with *max*.
 
-Your level can decrease when you're <<combat.adoc#damage,hurt in combat>> and increase when you <<resting.adoc#resting,rest>>. It cannot increase higher than your *max* level. If it reaches zero, you're <<combat.adoc#unconsciousness,unconscious>>.
+Your level can decrease when you're <<combat.adoc#_damage, damaged>> in combat and increase when you <<combat.adoc#_recovery, recover>>. It cannot increase higher than your *max* level. If it reaches zero, you're <<combat.adoc#_unconsciousness, unconscious>>.
 
 == Abilities
 

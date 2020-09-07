@@ -127,7 +127,7 @@ If you gain an action from a critical success, you must use it during this round
 
 === Attack
 
-Attacking requires that you are in <<combat.adoc#range,range>>, have line of sight, and already have in hand any item you're using to attack. Make a roll. On a success, you choose one die for the amount of <<combat.adoc#damage,damage>> your target takes and the other die for <<combat.adoc#hit_location,hit location>>.  If the target benefits from <<combat.adoc#cover,cover>>, they get to choose instead.
+Attacking requires that you are in <<Range>>, have <<Line of Sight>>, and already have in hand any item you're using to attack. Make a roll. On a success, you choose one die for the amount of <<Damage>> your target takes and the other die for <<Hit Location>>.  If the target benefits from <<Cover>>, they get to choose instead.
 
 === Move
 
@@ -139,7 +139,7 @@ Rearranging which items are in your hands, including picking items up or stowing
 
 === Counterattack
 
-In reaction to an attack against you from a character _in your area_, you may use one action to counterattack. This is not an opposed roll, you each make separate attack rolls and apply any effects simultaneously.
+In reaction to an attack against you from a character _in your area_, you may use one action to counterattack. This is not an opposed roll, you each make separate rolls as you would for <<Attack>> and apply any effects simultaneously.
 
 You cannot counterattack against an attack targeting someone other than you. You can counterattack _using_ a ranged weapon only if it is effective at range 0. You can counterattack _against_ a ranged attack only if it is from a character in your area, i.e. range 0.
 
@@ -151,7 +151,7 @@ In general, you must spend one action per attack you defend against.
 
 === Intercept
 
-In reaction to movement within your line of sight and range, you may use one action to attack the moving character. Cover from either area does not apply. Use the smaller of the two ranges. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on. If the effect of your attack forces them to stop moving, you decide which of the two areas they end up in.
+In reaction to movement within your line of sight and range, you may use one action to <<Attack>> the moving character. Cover from either area does not apply. Use the smaller of the two ranges. A character moving between an area at range one and zero is effectively at range zero, between two and one is at range one, and so on. If the effect of your attack forces them to stop moving, you decide which of the two areas they end up in.
 
 ****
 The range from the entrance to a character moving between the catwalk and dance floor is one.
@@ -161,9 +161,9 @@ The range from the entrance to a character moving between the catwalk and dance 
 
 When you are damaged by an attack, reduce your level by the amount of damage and mark the corresponding number of boxes on the hit location section of your character sheet.
 
-Mark damage in empty ☐ boxes, normally using a \ slash, indicating a wound that may be treatable by <<combat.adoc#first_aid,first aid>>. A mark of X is used to indicate a wound that cannot be treated by first aid, only by <<recovery.adoc#recovery, recovery>>. Marking by completely filling a box ■ is used to indicate a permanent wound that cannot be treated. A box is considered marked if it has any type of mark \, X, or ■.
+Mark damage in empty ☐ boxes, normally using a \ slash, indicating a wound that may be treatable by <<First Aid>>. A mark of X is used to indicate a wound that cannot be treated by first aid, only by <<Recovery>>. Marking by completely filling a box ■ is used to indicate a permanent wound that cannot be treated. A box is considered marked if it has any type of mark \, X, or ■.
 
-=== Hit location
+=== Hit Location
 
 The numbers on the die used for hit location correspond to six locations on the body, the higher the number the closer to the head:
 
@@ -183,9 +183,9 @@ The numbers on the die used for hit location correspond to six locations on the 
 
 When all of the boxes in a location are marked, apply the appropriate penalty for that type of location:
 
-  .. Head: <<combat.adoc#unconsciousness, unconsciousness>>
+  .. Head: <<Unconsciousness>>
   .. Arm: Drop any item held in that hand. You can't use that hand.
-  .. Torso: <<combat.adoc#unconsciousness, unconsciousness>>
+  .. Torso: <<Unconsciousness>>
   .. Leg: Immediately stop moving. You can't use that leg. You cannot move without using 2 empty hands.
   .. Both Legs: Immediately stop moving. You cannot move.
 
@@ -197,7 +197,7 @@ You already had 3 boxes marked \ on your right leg.  You move from the dance flo
 
 === First aid
 
-First aid has a range of zero to the character being treated, which can be yourself. First aid requires an appropriate <<items.adoc#first_aid,item>> in your hand. Spend an action, destroy the item, and roll.
+First aid has a range of zero to the character being treated, which can be yourself. First aid requires an appropriate <<items.adoc#_first_aid,first aid item>> in your hand. Spend an action, destroy the item, and roll.
 
 On a success, choose one die for the total number of boxes, and the other die for the number of _additional_ locations beyond one. Erase \ marks from the chosen number of boxes, distributed among at most that many locations. Do not increase level. Replace any remaining \ marks with an X.
 
@@ -212,6 +212,10 @@ On a critical failure, instead of losing your next action, replace a number of p
 ****
 Your ally has 1 \ mark and 1 X mark on their head and 3 X marks on their right arm.  You critically fail at first aid with a roll of 66. You replace the X marks on their arm and head with ■ permanent wounds, for a total of 4. Even though that's less than the 6 on the die, there are no more X marks to replace. You then replace the \ mark on their head with an X.
 ****
+
+=== Recovery
+
+Recovery allows you to restore your level to max, erase any \ or X wounds, and acquire or replace any items up to your maximum slots. The downside of recovery is that time passes, and any forces opposing you are not idle. The GM will advance the story to reflect this.
 
 === Unconsciousness
 
