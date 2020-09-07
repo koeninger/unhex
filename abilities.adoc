@@ -57,7 +57,7 @@ In addition to *good*, combat abilities may grant the die roll modifiers *precis
 
 AoE weapons come in different varieties, each requiring a corresponding ability and an item that is destroyed per attempted use. If you have multiple AoE abilities you must specify in advance which items are for which ability. They all use an Attack action, not Counterattack or Intercept, against an area at a range of 0 or 1. Failed AoE rolls have no effect. On a critical failure you take the _sum_ of the dice in damage, reading 100 as 20, 99 as 18, etc.
 
-AoEs cannot be Counterattacked. Neither cover nor shields apply to AoEs. Wounds caused by AoEs can be spread among locations of the damaged character's choice, and can be prevented by armor as normal. Some AoE effects last for a specified number of full turns: 0 ends at the end of the current turn, 1 at the end of the next turn, and so on.
+AoEs cannot be Counterattacked. Neither cover nor shields apply to AoEs. Wounds caused by AoEs can be spread among locations of the damaged character's choice, and can be prevented by armor as normal. Some AoE effects last for a specified number of full turns: 0 ends at the end of the current turn, 1 at the end of the next turn, and so on. The duration does not change if the user of the AoE goes unconscious.
 
 * Blast
 * Continuous

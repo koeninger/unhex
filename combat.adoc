@@ -213,10 +213,6 @@ On a critical failure, instead of losing your next action, replace a number of p
 Your ally has 1 \ mark and 1 X mark on their head and 3 X marks on their right arm.  You critically fail at first aid with a roll of 66. You replace the X marks on their arm and head with ■ permanent wounds, for a total of 4. Even though that's less than the 6 on the die, there are no more X marks to replace. You then replace the \ mark on their head with an X.
 ****
 
-=== Recovery
-
-Recovery allows you to restore your level to max, erase any \ or X wounds, and acquire or replace any items up to your maximum slots. The downside of recovery is that time passes, and any forces opposing you are not idle. The GM will advance the story to reflect this.
-
 === Unconsciousness
 
 If your level is below 10 or all of your head or torso boxes are marked, you are unconscious. When you are unconscious, you cannot spend actions and none of your abilities have an effect.
@@ -228,3 +224,8 @@ If your level is below 0 or all of your head or torso boxes are marked with ■ 
 === Surrender
 
 You may surrender at any point before an action that would affect you, as long as dice haven't been rolled yet. If you surrender, that action isn't spent and doesn't take effect.  Reduce your level to zero, you are out of the fight and effectively unconscious.
+
+=== Recovery
+
+Once combat is over, you can choose to recover. Recovery allows you to restore your level to max, erase any \ or X wounds, and acquire or replace any items up to your maximum slots. The downside of recovery is that time passes, and any forces opposing you are not idle. The GM will advance the story to reflect this.
+

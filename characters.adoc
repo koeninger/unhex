@@ -16,7 +16,7 @@ Your level can decrease when you're <<combat.adoc#_damage, damaged>> in combat a
 
 == Items
 
-You start with 5 slots for combat related <<items.adoc#items>>. The number and type of non-combat items you can have are up to you, as long as the GM agrees. You can change or replace items when you rest.
+You start with 5 slots for combat related <<items.adoc#items>>. The number and type of non-combat items you can have are up to you, as long as the GM agrees. You can change or replace items when you <<combat.adoc#_recovery, recover>>.
 
 Use the top slot(s) on the sheet for the items you typically want in your hands at the start of combat. Items will specify whether they require one or two hands. I'm assuming humanlike physiology, if you want to play an octopus work it out with the GM.
 
