@@ -173,9 +173,9 @@ The numbers on the die used for hit location correspond to six locations on the 
 .3+|4-6 .3+|Torso | ☐ ☐ ☐
                   | ☐ ☐ ☐
                   | ☐ ☐ ☐
-.2+|2-3 .2+|Right Leg |  ☐ ☐ ☐
+.2+|1 or 3 .2+|Right Leg |  ☐ ☐ ☐
                       |  ☐ ☐ ☐
-.2+|0-1 .2+|Left Leg  |  ☐ ☐ ☐
+.2+|0 or 2 .2+|Left Leg  |  ☐ ☐ ☐
                       |  ☐ ☐ ☐
 |===
 
@@ -187,7 +187,7 @@ When all of the boxes in a location are marked, apply the appropriate penalty fo
   .. Leg: Immediately stop moving. You can't use that leg. You cannot move without using 2 empty hands.
   .. Both Legs: Immediately stop moving. You cannot move.
 
-If there's additional damage to that location, either from this attack or a future attack, apply it to the torso.
+If there's additional damage to that location, either from this attack or a future attack, apply it to the torso. There's no additional penalty for using your non-dominant hand if one arm is unusable.
 
 ****
 You already had 3 boxes marked \ on your right leg.  You move from the dance floor to the bar. An opponent intercepts and hits you with an attack roll of 24.  They choose 4 damage to location 2 (right leg). You decrease your level by 4. You mark a \ in the remaining 3 boxes in your right leg, and an additional 1 box on your torso. You stop moving, and the opponent chooses the dance floor as the area you stop in.
@@ -205,7 +205,7 @@ Your ally has 2 \ marks on their head, and 1 \ on each arm. You succeed at first
 
 On a failure, replace all \ marks with an X.
 
-On a critical failure, instead of losing your next action, replace a number of pre-existing X marks up to the number shown on one of the dice (10 for a roll of 100, 9 for a 99, etc) with a permanent wound ■. Location of the permanent wounds is up to the player being treated. Then replace all \ marks with an X, as you would for a normal failure.
+On a critical failure, instead of losing your next action, replace a number of pre-existing X marks up to the number shown on _one_ of the dice with a permanent wound (e.g. 9 ■ marks for a roll of 99, 8 for 88, etc). Location of the permanent wounds is up to the player being treated. Then replace all \ marks with an X, as you would for a normal failure.
 
 ****
 Your ally has 1 \ mark and 1 X mark on their head and 3 X marks on their right arm.  You critically fail at first aid with a roll of 66. You replace the X marks on their arm and head with ■ permanent wounds, for a total of 4. Even though that's less than the 6 on the die, there are no more X marks to replace. You then replace the \ mark on their head with an X.

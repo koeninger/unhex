@@ -6,7 +6,7 @@ Decide on a concept, a name, and a description, then fill in your character shee
 
 == Level
 
-Your level is your basic percentage chance of success when <<dice.adoc#dice,rolling dice>>.  Your current and *max* level start at 50, and are tracked separately on your character sheet.  The word 'level' by itself always refers to current level unless prefixed with *max*.
+Your level is the number you need for success when <<dice.adoc#dice,rolling dice>>.  Your current and *max* level start at 50, and are tracked separately on your character sheet.  The word 'level' by itself always refers to current level unless prefixed with *max*.
 
 Your level can decrease when you're <<combat.adoc#_damage, damaged>> in combat and increase when you <<combat.adoc#_recovery, recover>>. It cannot increase higher than your *max* level.
 
@@ -28,4 +28,4 @@ When your level increases to a number ending in 5 you get another slot for items
 
 When your level increases to a number ending in 0 you choose another ability. At level 60 you can choose a second combat or non-combat ability, at level 70 another, etc.
 
-Your *max* level cannot increase beyond 99.
+Your *max* level cannot increase above 95.

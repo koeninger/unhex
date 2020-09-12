@@ -4,7 +4,7 @@
 When a result is uncertain, roll dice to see what happens. Don't roll dice unless there's potential for both success and failure to have interesting consequences. Once consequences have been decided, don't keep re-trying for a different result.
 
 == Basic rolls
-Roll percentile dice. Equal to or under your level is a success. Over your level is a failure. 00 on one die and 0 on the other die is read as one hundred, not zero.
+Roll percentile dice. Equal to or under your level is a success. Over your level is a failure. Read 00 on one die and 0 on the other die as zero, not one hundred. This is so 0 digits are consistently treated as low, although it does mean that your basic percentage chance of success is actually 1% higher than your level.
 
 == Degrees of success
 In some situations, how successful you are is more interesting than just a binary success or failure. In that case, higher successful rolls are better.  In other words, rolling exactly equal to your level is the best you can do.
@@ -12,7 +12,7 @@ In some situations, how successful you are is more interesting than just a binar
 In some situations, there may be two separate degrees of success. In that case, you pick which die is used for which. Each die indicates a degree of success from zero to nine.  Higher is usually better. For instance, in <<combat.adoc#combat,combat>> after a successful attack you pick one die for damage, and the other for hit location.
 
 == Critical rolls
-If you roll doubles, i.e. the tens digit and ones digit match, it's a critical, meaning the effect of success or failure is magnified. Rolling exactly equal to your level is also a critical success. Rolling one hundred is critical failure.
+If you roll doubles, i.e. the tens digit and ones digit match, it's a critical, meaning the effect of success or failure is magnified. Rolling exactly equal to your level is also a critical success.
 
 If you roll a critical success, choose one of the following options, _not both_:
 

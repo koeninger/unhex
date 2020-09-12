@@ -2,7 +2,8 @@
 = Intro
 
 == Why this game?
-This is a tactical tabletop roleplaying game that doesn't depend on hex or square grid maps for interesting positional decisions. Actions are resolved with a single roll to determine success, including damage and hit location. You only have a <<level.adoc#level,single target number>> to keep track of.
+
+Unhex is a tactical tabletop roleplaying game that uses simple point to point maps for interesting positional decisions, instead of a hex or square grid. Actions are resolved with a single roll to determine success, including damage and hit location. You only have a <<level.adoc#level,single target number>> to keep track of. It works for any genre involving person to person combat, since items and abilities are defined by their effects, not appearance.
 
 == Materials
 
@@ -18,7 +19,7 @@ You need 2-5 people. One person is the Game Moderator (GM), the other players ea
 
 Players make decisions for their PCs. The GM is responsible for making decisions for all Non-Player Characters (NPCs). The GM isn't the author of the story, but they keep the story interesting by challenging the players.
 
-== Meta
+== Guidelines
 
 More specific rules override general rules. When timing matters and is not otherwise specified, out of combat the PC decides, in combat the side with initiative decides. There's no division in this game, so don't worry about rounding. 'You' may refer to you as a player or your character, it should be clear from context. If a rule is unclear, the GM decides, but please file an issue at https://github.com/koeninger/unhex/issues and I'll clarify.
 
